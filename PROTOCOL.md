@@ -206,7 +206,15 @@ Title, Index Sans) are SIL OFL 1.1 and ship at kept.do/type.
 
 ## 9. Versioning
 
-- **v1/v2** (July–Aug 2026): 20 words + 7 codes, 3 reps, condition names
+A freeze note that matters: the shipped Legibility Sans binary is the v1.0
+recipe, frozen before protocol v3.1 existed. A briefly built v1.1 spacing
+variant was selected partly on v3.1 runs and was withdrawn for exactly that
+reason; its numbers live in the run logs, not in any table. The referee does
+not coach the team.
+
+## 9b. Version history
+
+- **v1/v2** (July–Aug 2026): 20 words + 7 codes, 3 repetitions, condition names
   `tilt-45`/`dark`. Results preserved under `results/v2/`.
 - **v3** (Aug 2026): this document. Corpus expanded, 6 reps, threshold sweep,
   renamed conditions, per-rep raw data, rank bands.

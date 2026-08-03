@@ -38,6 +38,11 @@ any language, by hand or by handing it to your AI assistant. Independent
 implementations that disagree with ours are the most valuable issue you can
 file.
 
+## A note on the site links
+
+The kept.do pages referenced here ship with the next site deploy; if a link
+404s, the repo you are standing in has everything the pages summarize.
+
 ## Results
 
 The current table, the per-condition cells, controls (word-level scoring,
