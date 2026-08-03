@@ -3,9 +3,10 @@
 A reproducible, machine-vision legibility benchmark for typefaces, and the
 harness that built three fonts with it.
 
-Twenty typefaces are rendered into ten degraded conditions, nine-pixel
-body text, blur, downscaled glances, keystone warps, inverted polarity, noisy
-passthrough backgrounds, adversarial alphanumeric codes, then read back by
+Twenty-four typefaces are rendered into twelve degraded conditions, nine-pixel
+body text, blur, hard downscales, keystone warps, inverted polarity, noisy
+passthrough backgrounds, tight-set crowding, low-contrast styling, and
+adversarial alphanumeric codes, then read back by
 Apple's Vision text recognizer with language correction off, and scored by
 character accuracy against ground truth. Eight shuffled repetitions per cell,
 per-repetition raw data published, differences under a point are ties.
