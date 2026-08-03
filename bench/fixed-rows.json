@@ -1,0 +1,1518 @@
+{
+ "protocol": "v3.1",
+ "reps": 8,
+ "criterion": 0.9,
+ "conditions": [
+  "body-9px",
+  "body-12px",
+  "body-9px-blur",
+  "body-12px-blur",
+  "glance",
+  "keystone",
+  "inverted",
+  "passthrough",
+  "codes-11px",
+  "codes-glance",
+  "crowded",
+  "low-contrast"
+ ],
+ "threshold_sizes": [
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  14,
+  16
+ ],
+ "tokens": [
+  "modern",
+  "kernel",
+  "million",
+  "graduate",
+  "keyboard",
+  "obvious",
+  "clean",
+  "particular",
+  "illusion",
+  "parallel",
+  "calendar",
+  "morning",
+  "franchise",
+  "deliberate",
+  "quiet",
+  "exact",
+  "unkempt",
+  "afford",
+  "bubble",
+  "hyphen",
+  "quickly",
+  "hijack",
+  "buoyant",
+  "mirror",
+  "grammar",
+  "pillow",
+  "official",
+  "civil",
+  "vivid",
+  "banana",
+  "unique",
+  "council",
+  "flying",
+  "graph",
+  "jigsaw",
+  "kingdom",
+  "lullaby",
+  "minimum",
+  "opinion",
+  "puzzle",
+  "Illinois",
+  "Zurich",
+  "Dublin",
+  "ILLINOIS",
+  "OQGDC",
+  "Madrid",
+  "Quebec",
+  "BENCHMARK"
+ ],
+ "codes": [
+  "K3PT-011l",
+  "X4O0-Q8B5",
+  "S52Z-Il1J",
+  "rn-m-nn",
+  "0O8B",
+  "I1l|",
+  "G6C",
+  "8B5S-2Z0O",
+  "L1I7-G6C0",
+  "M3rn-NN11",
+  "Q0OD-C6G8",
+  "17Il-l1I7"
+ ],
+ "results": {
+  "Kept Sans": {
+   "grand_mean": 0.9552,
+   "legible_down_to_px": 9,
+   "cells": {
+    "body-9px": {
+     "mean": 0.9564,
+     "sd": 0.0465,
+     "reps": [
+      0.9946,
+      0.9838,
+      0.8892,
+      0.9811,
+      0.8757,
+      0.9676,
+      0.973,
+      0.9865
+     ]
+    },
+    "body-12px": {
+     "mean": 0.9986,
+     "sd": 0.0014,
+     "reps": [
+      1.0,
+      0.9973,
+      1.0,
+      1.0,
+      0.9973,
+      0.9973,
+      0.9973,
+      1.0
+     ]
+    },
+    "body-9px-blur": {
+     "mean": 0.9453,
+     "sd": 0.1124,
+     "reps": [
+      0.9892,
+      0.6676,
+      0.9811,
+      0.9838,
+      0.9838,
+      0.973,
+      0.9946,
+      0.9892
+     ]
+    },
+    "body-12px-blur": {
+     "mean": 0.9956,
+     "sd": 0.0035,
+     "reps": [
+      1.0,
+      0.9973,
+      0.9919,
+      0.9919,
+      0.9919,
+      0.9973,
+      0.9946,
+      1.0
+     ]
+    },
+    "glance": {
+     "mean": 0.999,
+     "sd": 0.0014,
+     "reps": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.9973,
+      0.9973,
+      0.9973,
+      1.0
+     ]
+    },
+    "keystone": {
+     "mean": 0.9993,
+     "sd": 0.0013,
+     "reps": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.9973,
+      0.9973,
+      1.0
+     ]
+    },
+    "inverted": {
+     "mean": 0.9993,
+     "sd": 0.0013,
+     "reps": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.9973,
+      1.0,
+      0.9973,
+      1.0
+     ]
+    },
+    "passthrough": {
+     "mean": 0.9655,
+     "sd": 0.0102,
+     "reps": [
+      0.9784,
+      0.9568,
+      0.9649,
+      0.9784,
+      0.9649,
+      0.9541,
+      0.9541,
+      0.973
+     ]
+    },
+    "codes-11px": {
+     "mean": 0.8663,
+     "sd": 0.0243,
+     "reps": [
+      0.901,
+      0.8317,
+      0.8812,
+      0.8416,
+      0.8911,
+      0.8614,
+      0.8515,
+      0.8713
+     ]
+    },
+    "codes-glance": {
+     "mean": 0.8416,
+     "sd": 0.0427,
+     "reps": [
+      0.8812,
+      0.8218,
+      0.8713,
+      0.8614,
+      0.7624,
+      0.8812,
+      0.802,
+      0.8515
+     ]
+    },
+    "crowded": {
+     "mean": 0.898,
+     "sd": 0.1198,
+     "reps": [
+      0.9622,
+      0.9568,
+      0.7378,
+      0.9973,
+      0.9108,
+      0.9649,
+      0.973,
+      0.6811
+     ]
+    },
+    "low-contrast": {
+     "mean": 0.997,
+     "sd": 0.0027,
+     "reps": [
+      0.9946,
+      0.9946,
+      1.0,
+      1.0,
+      0.9973,
+      1.0,
+      0.9946,
+      0.9946
+     ]
+    },
+    "thresh-6": {
+     "mean": 0.2736,
+     "sd": 0.3475,
+     "reps": [
+      0.6973,
+      0.0324,
+      0.0378,
+      0.6757,
+      0.0405,
+      0.0,
+      0.0,
+      0.7054
+     ]
+    },
+    "thresh-7": {
+     "mean": 0.6855,
+     "sd": 0.056,
+     "reps": [
+      0.6649,
+      0.7,
+      0.7432,
+      0.6595,
+      0.7108,
+      0.7432,
+      0.5703,
+      0.6919
+     ]
+    },
+    "thresh-8": {
+     "mean": 0.8182,
+     "sd": 0.067,
+     "reps": [
+      0.7216,
+      0.873,
+      0.8541,
+      0.8243,
+      0.7216,
+      0.7919,
+      0.8703,
+      0.8892
+     ]
+    },
+    "thresh-9": {
+     "mean": 0.9564,
+     "sd": 0.0465,
+     "reps": [
+      0.9946,
+      0.9838,
+      0.8892,
+      0.9811,
+      0.8757,
+      0.9676,
+      0.973,
+      0.9865
+     ]
+    },
+    "thresh-10": {
+     "mean": 0.9939,
+     "sd": 0.0052,
+     "reps": [
+      0.9946,
+      0.9973,
+      0.9946,
+      1.0,
+      0.9892,
+      0.9838,
+      0.9973,
+      0.9946
+     ]
+    },
+    "thresh-11": {
+     "mean": 0.9956,
+     "sd": 0.0029,
+     "reps": [
+      0.9946,
+      0.9919,
+      0.9946,
+      1.0,
+      0.9973,
+      0.9973,
+      0.9973,
+      0.9919
+     ]
+    },
+    "thresh-12": {
+     "mean": 0.9986,
+     "sd": 0.0014,
+     "reps": [
+      1.0,
+      0.9973,
+      1.0,
+      1.0,
+      0.9973,
+      0.9973,
+      0.9973,
+      1.0
+     ]
+    },
+    "thresh-14": {
+     "mean": 0.9986,
+     "sd": 0.0025,
+     "reps": [
+      1.0,
+      1.0,
+      1.0,
+      0.9946,
+      1.0,
+      0.9946,
+      1.0,
+      1.0
+     ]
+    },
+    "thresh-16": {
+     "mean": 0.9997,
+     "sd": 0.001,
+     "reps": [
+      1.0,
+      1.0,
+      0.9973,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Legibility Sans": {
+   "grand_mean": 0.9642,
+   "legible_down_to_px": 8,
+   "cells": {
+    "body-9px": {
+     "mean": 0.9672,
+     "sd": 0.0383,
+     "reps": [
+      0.9946,
+      0.9649,
+      0.8784,
+      0.9649,
+      0.973,
+      0.973,
+      0.9892,
+      1.0
+     ]
+    },
+    "body-12px": {
+     "mean": 0.9997,
+     "sd": 0.001,
+     "reps": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.9973,
+      1.0
+     ]
+    },
+    "body-9px-blur": {
+     "mean": 0.925,
+     "sd": 0.1849,
+     "reps": [
+      0.9892,
+      0.9838,
+      0.9811,
+      0.9919,
+      0.9973,
+      0.9973,
+      0.9919,
+      0.4676
+     ]
+    },
+    "body-12px-blur": {
+     "mean": 0.998,
+     "sd": 0.0019,
+     "reps": [
+      0.9973,
+      1.0,
+      0.9973,
+      1.0,
+      0.9973,
+      0.9973,
+      0.9946,
+      1.0
+     ]
+    },
+    "glance": {
+     "mean": 1.0,
+     "sd": 0.0,
+     "reps": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "keystone": {
+     "mean": 0.9986,
+     "sd": 0.0038,
+     "reps": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.9892,
+      1.0,
+      1.0
+     ]
+    },
+    "inverted": {
+     "mean": 0.9997,
+     "sd": 0.001,
+     "reps": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.9973,
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "passthrough": {
+     "mean": 0.976,
+     "sd": 0.0039,
+     "reps": [
+      0.9811,
+      0.9757,
+      0.9784,
+      0.9757,
+      0.9703,
+      0.9703,
+      0.9784,
+      0.9784
+     ]
+    },
+    "codes-11px": {
+     "mean": 0.8589,
+     "sd": 0.049,
+     "reps": [
+      0.8416,
+      0.7525,
+      0.901,
+      0.8614,
+      0.8911,
+      0.8416,
+      0.8911,
+      0.8911
+     ]
+    },
+    "codes-glance": {
+     "mean": 0.8762,
+     "sd": 0.0382,
+     "reps": [
+      0.8911,
+      0.8515,
+      0.8911,
+      0.9109,
+      0.7921,
+      0.901,
+      0.8911,
+      0.8812
+     ]
+    },
+    "crowded": {
+     "mean": 0.9716,
+     "sd": 0.0385,
+     "reps": [
+      0.9919,
+      0.9243,
+      0.9892,
+      1.0,
+      0.8973,
+      0.9973,
+      0.9892,
+      0.9838
+     ]
+    },
+    "low-contrast": {
+     "mean": 0.9993,
+     "sd": 0.0013,
+     "reps": [
+      1.0,
+      1.0,
+      1.0,
+      0.9973,
+      1.0,
+      1.0,
+      0.9973,
+      1.0
+     ]
+    },
+    "thresh-6": {
+     "mean": 0.1304,
+     "sd": 0.2471,
+     "reps": [
+      0.2405,
+      0.7054,
+      0.0,
+      0.0,
+      0.0081,
+      0.0,
+      0.0892,
+      0.0
+     ]
+    },
+    "thresh-7": {
+     "mean": 0.6682,
+     "sd": 0.0918,
+     "reps": [
+      0.5892,
+      0.727,
+      0.7649,
+      0.5541,
+      0.6973,
+      0.6568,
+      0.7919,
+      0.5649
+     ]
+    },
+    "thresh-8": {
+     "mean": 0.9159,
+     "sd": 0.0367,
+     "reps": [
+      0.8541,
+      0.8649,
+      0.9189,
+      0.9459,
+      0.9405,
+      0.9297,
+      0.9514,
+      0.9216
+     ]
+    },
+    "thresh-9": {
+     "mean": 0.9672,
+     "sd": 0.0383,
+     "reps": [
+      0.9946,
+      0.9649,
+      0.8784,
+      0.9649,
+      0.973,
+      0.973,
+      0.9892,
+      1.0
+     ]
+    },
+    "thresh-10": {
+     "mean": 0.9926,
+     "sd": 0.0178,
+     "reps": [
+      0.9973,
+      0.9486,
+      1.0,
+      0.9973,
+      0.9973,
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "thresh-11": {
+     "mean": 0.9993,
+     "sd": 0.0019,
+     "reps": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.9946,
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "thresh-12": {
+     "mean": 0.9997,
+     "sd": 0.001,
+     "reps": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.9973,
+      1.0
+     ]
+    },
+    "thresh-14": {
+     "mean": 0.9983,
+     "sd": 0.0029,
+     "reps": [
+      0.9919,
+      1.0,
+      1.0,
+      0.9973,
+      0.9973,
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "thresh-16": {
+     "mean": 1.0,
+     "sd": 0.0,
+     "reps": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  }
+ },
+ "raw_reader_output": {
+  "Kept Sans": {
+   "body-9px": [
+    {
+     "gt": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civil obvious million deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly",
+     "ocr": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civi obvious million deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quic kly"
+    },
+    {
+     "gt": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official Illinois",
+     "ocr": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil oTTicial ElInoIs"
+    },
+    {
+     "gt": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle Illinois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS",
+     "ocr": "\u0430\u0442\u0442\u043e\u0442\u0430 exact quiet owobc nyonen particul ar illus ion kernel modern obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle lllinois graph vivid civi banana official kingdom quickly buoyant opinion keyboard calendar"
+    },
+    {
+     "gt": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel",
+     "ocr": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar mill ion bubble afford opinion illusionquiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimumhijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec Danana paraue"
+    },
+    {
+     "gt": "unkempt parallel Illinois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modern million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly",
+     "ocr": "unkempt parauel lllinois qraduate Danana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijackl BENCHMARK minimum Dubl in official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly"
+    },
+    {
+     "gt": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular morning kernel banana vivid bubble puzzle council official franchise flying deliberate Illinois OQGDC graduate",
+     "ocr": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammarkingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular morning kernel banana vivid bubble puzze council official franchise flying deliberate lu inols vwwbe qraduate"
+    },
+    {
+     "gt": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble Illinois puzzle pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel quiet graph afford BENCHMARK hyphen morning banana kingdom",
+     "ocr": "araduate modem unkempt exact opinion franchise grammar keyboard buoyant quickly bubble lllinois puzzle pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid fly ing calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel quiet graph afford BENCHMARK hyphen moming danana kinadom\u0131"
+    },
+    {
+     "gt": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard",
+     "ocr": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Ill inois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK Danana Trancnise keyooard"
+    }
+   ],
+   "body-12px": [
+    {
+     "gt": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civil obvious million deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly",
+     "ocr": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civil obvious million deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly"
+    },
+    {
+     "gt": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official Illinois",
+     "ocr": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official illinois"
+    },
+    {
+     "gt": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle Illinois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS",
+     "ocr": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle Illinois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS"
+    },
+    {
+     "gt": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel",
+     "ocr": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel"
+    },
+    {
+     "gt": "unkempt parallel Illinois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modern million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly",
+     "ocr": "unkempt parallel illinois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modern million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly"
+    },
+    {
+     "gt": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular morning kernel banana vivid bubble puzzle council official franchise flying deliberate Illinois OQGDC graduate",
+     "ocr": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular morning Kernel banana vivid bubble puzzle council official franchise flying deliberate Illinois OQGDC graduate"
+    },
+    {
+     "gt": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble Illinois puzzle pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel quiet graph afford BENCHMARK hyphen morning banana kingdom",
+     "ocr": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble illinois puzzle pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel quiet graph afford BENCHMARK hyphen morning banana kingdom"
+    },
+    {
+     "gt": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard",
+     "ocr": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard"
+    }
+   ],
+   "body-9px-blur": [
+    {
+     "gt": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civil obvious million deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly",
+     "ocr": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dubl in vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdomafford unique particular OQGDC official civi obvious milion deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly"
+    },
+    {
+     "gt": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official Illinois",
+     "ocr": "obvious graph graduate kernel OQGDC pilow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK quickly buoyant calendar opinion milion Dublin banana mirror keyboard clean civil official Ilinois"
+    },
+    {
+     "gt": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle Illinois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS",
+     "ocr": "afford exact quiet OQGDC hyphen particular illusion kernel modernobvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid JENCHMARK counci unique Quebec franchise deliberate parallei puzzle llinois graph vivid civi banana official kingdom quickly buoyant opinion key board calendar clean million ILLINOIS"
+    },
+    {
+     "gt": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel",
+     "ocr": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar milion bubble afford opinion illusionquiet franchise mirror llinois quickly Dublin OQGDC vivid keyboard Iullaby clean grammar official BENCHMARK minimumhijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoy ant pillow morning Quebec banana parallel"
+    },
+    {
+     "gt": "unkempt parallel Illinois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modern million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly",
+     "ocr": "unkempt parallel Illino is graduate banana| keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modern million deliberate BENCHMARK minimum Dubl in official jigsaw OQGDC Quebec Zurich afford puzzie unique franchise counci vivid quiet calendar clean lulaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly"
+    },
+    {
+     "gt": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular morning kernel banana vivid bubble puzzle council official franchise flying deliberate Illinois OQGDC graduate",
+     "ocr": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammarkingdom ILLINOIS Quebec koyboard cilil ilusion unique modem opinion quiet million afford lullaby Madrid quickly Zurich particular morning kernelbanana vivid bubble puzde council official franchise flying deliberate Ill inois OQGDC graduate"
+    },
+    {
+     "gt": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble Illinois puzzle pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel quiet graph afford BENCHMARK hyphen morning banana kingdom",
+     "ocr": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble Illinois puzze pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kerel quiet graph afford BENCHMARK hyphen morning banana kingdom"
+    },
+    {
+     "gt": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard",
+     "ocr": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Ill inois calendar ullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid fiying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel llusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard"
+    }
+   ],
+   "body-12px-blur": [
+    {
+     "gt": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civil obvious million deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly",
+     "ocr": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civil obvious million deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly"
+    },
+    {
+     "gt": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official Illinois",
+     "ocr": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dubllin banana mirror keyboard clean civil official Illinois"
+    },
+    {
+     "gt": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle Illinois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS",
+     "ocr": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious Zurich morning jig saw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle illlinois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS"
+    },
+    {
+     "gt": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel",
+     "ocr": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kemnel calendar million bubble afford opinion illusion quiet franchise mirror llinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallei"
+    },
+    {
+     "gt": "unkempt parallel Illinois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modern million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly",
+     "ocr": "unkempt parallel ill inois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modern million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar cle an lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly"
+    },
+    {
+     "gt": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular morning kernel banana vivid bubble puzzle council official franchise flying deliberate Illinois OQGDC graduate",
+     "ocr": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular morning kernel banana vivid bubble puzzle council official franchise flying deliberate Ilinois OQGDC graduate"
+    },
+    {
+     "gt": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble Illinois puzzle pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel quiet graph afford BENCHMARK hyphen morning banana kingdom",
+     "ocr": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble Illinois puzzle pill ow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kemnel quiet graph afford BENCHMARK hyphen morning banana kingdom"
+    },
+    {
+     "gt": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard",
+     "ocr": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard"
+    }
+   ],
+   "glance": [
+    {
+     "gt": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civil obvious million deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly",
+     "ocr": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civil obvious million deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly"
+    },
+    {
+     "gt": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official Illinois",
+     "ocr": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official Illinois"
+    },
+    {
+     "gt": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle Illinois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS",
+     "ocr": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle Illinois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS"
+    },
+    {
+     "gt": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel",
+     "ocr": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel"
+    },
+    {
+     "gt": "unkempt parallel Illinois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modern million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly",
+     "ocr": "unkempt parallel illinois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modern million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly"
+    },
+    {
+     "gt": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular morning kernel banana vivid bubble puzzle council official franchise flying deliberate Illinois OQGDC graduate",
+     "ocr": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular morning kernel banana vivid bubble puzzle council official franchise flying deliberate lllinois OQGDC graduate"
+    },
+    {
+     "gt": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble Illinois puzzle pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel quiet graph afford BENCHMARK hyphen morning banana kingdom",
+     "ocr": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble lllinois puzzle pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel quiet graph afford BENCHMARK hyphen morning banana kingdom"
+    },
+    {
+     "gt": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard",
+     "ocr": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard"
+    }
+   ],
+   "keystone": [
+    {
+     "gt": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civil obvious million deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly",
+     "ocr": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civil obvious million deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly"
+    },
+    {
+     "gt": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official Illinois",
+     "ocr": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official Illinois"
+    },
+    {
+     "gt": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle Illinois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS",
+     "ocr": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle Illinois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS"
+    },
+    {
+     "gt": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel",
+     "ocr": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel"
+    },
+    {
+     "gt": "unkempt parallel Illinois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modern million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly",
+     "ocr": "unkempt parallel Illinois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modern million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly"
+    },
+    {
+     "gt": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular morning kernel banana vivid bubble puzzle council official franchise flying deliberate Illinois OQGDC graduate",
+     "ocr": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar Clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular morning kernel banana vivid bubble puzzle council official franchise flying deliberate Illinois OQGDC graduate"
+    },
+    {
+     "gt": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble Illinois puzzle pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel quiet graph afford BENCHMARK hyphen morning banana kingdom",
+     "ocr": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble lllinois puzzle pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel quiet graph afford BENCHMARK hyphen morning banana kingdom"
+    },
+    {
+     "gt": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard",
+     "ocr": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard"
+    }
+   ],
+   "inverted": [
+    {
+     "gt": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civil obvious million deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly",
+     "ocr": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civil obvious million deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly"
+    },
+    {
+     "gt": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official Illinois",
+     "ocr": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official Illinois"
+    },
+    {
+     "gt": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle Illinois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS",
+     "ocr": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle Illinois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS"
+    },
+    {
+     "gt": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel",
+     "ocr": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel"
+    },
+    {
+     "gt": "unkempt parallel Illinois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modern million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly",
+     "ocr": "unkempt parallel illinois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modern million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly"
+    },
+    {
+     "gt": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular morning kernel banana vivid bubble puzzle council official franchise flying deliberate Illinois OQGDC graduate",
+     "ocr": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular morning kernel banana vivid bubble puzzle council official franchise flying deliberate Illinois OQGDC graduate"
+    },
+    {
+     "gt": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble Illinois puzzle pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel quiet graph afford BENCHMARK hyphen morning banana kingdom",
+     "ocr": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble illinois puzzle pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel quiet graph afford BENCHMARK hyphen morning banana kingdom"
+    },
+    {
+     "gt": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard",
+     "ocr": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard"
+    }
+   ],
+   "passthrough": [
+    {
+     "gt": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civil obvious million deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly",
+     "ocr": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinols Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banaba opinion bubble kernel king dom afford unique particular OQGDC official eivil obvious million deliberate flying ILLINOIS minimum mirror dlean jigsaw keyboard graduate Zurich: pillow paraitel quickly"
+    },
+    {
+     "gt": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official Illinois",
+     "ocr": "obvious graph graduate kernel OQGDC piltow quiet vivid Zurich jigsaw kingdor parallel minimum illusion lullaby?a morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise babble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean: ENVioffictattlinois"
+    },
+    {
+     "gt": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle Illinois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS",
+     "ocr": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious. Zurich morning jigsaw lullaby mirror flying mintmum bubble graduate hijack unkempt grammar Dublin pillow Madnd BENCHMARK councilunique Quebec franchise deliberate parallel puzzle Iilinois graph vivid civil banana official kingdom. quickly buoyant opinion keyboard calender cleacmiilton IELINOIS"
+    },
+    {
+     "gt": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel",
+     "ocr": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calenelar mittion bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDE vizid keyboard lullaby clean grammar official BENCHMARK' minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civit buoyant pillow morning Quebec banana parallel"
+    },
+    {
+     "gt": "unkempt parallel Illinois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modern million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly",
+     "ocr": "unkempt parallel iltinois graduate banana keyboard graph ILLINOIS hyphen morning; Mad\u00e7id opinion civil kingdom hijack illusion exact modem million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford p\u00fczzle unique franchise council yivid quiet calendar clean lullaby buoyant particular gramimar kernel bubble pillow obvious, flying-Iitror quickly"
+    },
+    {
+     "gt": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular morning kernel banana vivid bubble puzzle council official franchise flying deliberate Illinois OQGDC graduate",
+     "ocr": "BENCHMARK exact pillow obvlous hyphen Dubl\u0131n mirror graph minimum parallel unkemipt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet millian alford fullaby Madrid quickly Zurich particular moming kernel banana vivid bubble puzzle douncil official franchise flying deliberate Itoi COCDC graduate"
+    },
+    {
+     "gt": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble Illinois puzzle pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel quiet graph afford BENCHMARK hyphen morning banana kingdom",
+     "ocr": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubbte finois puzzle pillow unique lutlaby million civil Zurich minimum obvious illusion cl\u00e9an mitror particular vivid official Madrid flyang Calendar hijack Dublin counciLLINOJS deliberate jigsaw Quebec paratlel OQGDC kernel quiet graph afford BENCHMARK hyphen: motring banana kingdom"
+    },
+    {
+     "gt": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard",
+     "ocr": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin af ford miodern minimum Illinois calendar lutlaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning delibetate grammar official opinion Zurich exact BILINOIS unkempt quickly kernel illusion graph divilelean quiet jigsaw BENCHMARK banan\u0103 franchise keyboard"
+    }
+   ],
+   "codes-11px": [
+    {
+     "gt": "8B5S-2Z0O 17Il-l1I7 rn-m-nn Q0OD-C6G8 L1I7-G6C0 0O8B M3rn-NN11 X4O0-Q8B5 K3PT-011l G6C S52Z-Il1J I1l|",
+     "ocr": "8B5S-2Z0O 17I1-1117 rn-m-nn QOOD-C6G8 L117-G6CO 008B M3rn-NN11 X400-Q8B5 K3PT-0111 G6C S52Z-I|1J I1l|"
+    },
+    {
+     "gt": "8B5S-2Z0O 0O8B K3PT-011l M3rn-NN11 rn-m-nn I1l| S52Z-Il1J L1I7-G6C0 X4O0-Q8B5 17Il-l1I7 G6C Q0OD-C6G8",
+     "ocr": "8B5S-2Z00 008\u0412 \u041a3PT-0111 M3rn-NN11 rn-m-nn111l S52Z-I11J L117-G6CO X400-Q8B5 1711-1117 G6C QOOD-C6G8"
+    },
+    {
+     "gt": "17Il-l1I7 G6C 8B5S-2Z0O rn-m-nn I1l| L1I7-G6C0 0O8B M3rn-NN11 S52Z-Il1J X4O0-Q8B5 K3PT-011l Q0OD-C6G8",
+     "ocr": "171I-1117 G6C 8B5S-2Z00 rn-m-nn I1l| L117-G6CO 008B M3rn-NN11 S52Z-II1J X400-Q8B5 K3PT-0111 QOOD-C6G8"
+    },
+    {
+     "gt": "X4O0-Q8B5 0O8B M3rn-NN11 K3PT-011l rn-m-nn L1I7-G6C0 I1l| G6C 17Il-l1I7 Q0OD-C6G8 8B5S-2Z0O S52Z-Il1J",
+     "ocr": "X400-Q8B5 008B M3rn-NN11 K3PT-0111 rn-m-nn L117-G6CO I11j G6C 1711-1117 QOOD-C6G8 8B5S-2Z00S52Z-111J"
+    },
+    {
+     "gt": "8B5S-2Z0O 0O8B M3rn-NN11 Q0OD-C6G8 rn-m-nn K3PT-011l S52Z-Il1J G6C X4O0-Q8B5 L1I7-G6C0 17Il-l1I7 I1l|",
+     "ocr": "8B5S-2Z00 008B M3rn-NN11 QOOD-C6G8 rn-m-nn K3PT-011l S52Z-II1J G6C X400-Q8B5 L117-G6CO 171l-1117 I11|"
+    },
+    {
+     "gt": "17Il-l1I7 I1l| X4O0-Q8B5 S52Z-Il1J 0O8B G6C 8B5S-2Z0O M3rn-NN11 L1I7-G6C0 rn-m-nn Q0OD-C6G8 K3PT-011l",
+     "ocr": "1711-1117 11l| X400-Q8B5 S52Z-II1J 008B G6C 8BSS-2Z00 M3rn-NN11 L117-G6CO rn-m-nn QOOD-C6G8 K3PT-0111"
+    },
+    {
+     "gt": "rn-m-nn I1l| G6C M3rn-NN11 K3PT-011l X4O0-Q8B5 Q0OD-C6G8 17Il-l1I7 0O8B S52Z-Il1J 8B5S-2Z0O L1I7-G6C0",
+     "ocr": "rn-m-nn Il|G6C M3rn-NN11 K3PT-0111 X400-Q8B5 QOOD-C6G8 17/1-1117 008B S52Z-I11J 8BSS-2Z00 L117-G6CO"
+    },
+    {
+     "gt": "S52Z-Il1J I1l| G6C L1I7-G6C0 0O8B M3rn-NN11 K3PT-011l Q0OD-C6G8 17Il-l1I7 8B5S-2Z0O rn-m-nn X4O0-Q8B5",
+     "ocr": "S52Z-I11J I1l| G6C L117-G6C0 008B M3r-NN11 \u041a3PT-0111 QOOD-C6G8 17/1-1117 8B5S-2Z00 rn-m-nn X400-Q8B5"
+    }
+   ],
+   "codes-glance": [
+    {
+     "gt": "8B5S-2Z0O 17Il-l1I7 rn-m-nn Q0OD-C6G8 L1I7-G6C0 0O8B M3rn-NN11 X4O0-Q8B5 K3PT-011l G6C S52Z-Il1J I1l|",
+     "ocr": "8B5S-2Z00 1711-[117 rn-m-nn QOOD-C6G8 L117-G6C0 008B M3rn-NN11 X400-Q885 K3PT-011l G6C S52Z-II1J I11|"
+    },
+    {
+     "gt": "8B5S-2Z0O 0O8B K3PT-011l M3rn-NN11 rn-m-nn I1l| S52Z-Il1J L1I7-G6C0 X4O0-Q8B5 17Il-l1I7 G6C Q0OD-C6G8",
+     "ocr": "8B5S-2Z00 008B K3PT-011. M3rn-NN11 m-m-nn 11l| | S52Z-II1J L117-G6CO X400-Q885 1711-1117 G6C QOOD-C6G8"
+    },
+    {
+     "gt": "17Il-l1I7 G6C 8B5S-2Z0O rn-m-nn I1l| L1I7-G6C0 0O8B M3rn-NN11 S52Z-Il1J X4O0-Q8B5 K3PT-011l Q0OD-C6G8",
+     "ocr": "1711-1117 G6C 8B5S-2Z00 rn-m-nn 11l| L117-G6CO 008B M3rn-NN11 S52Z-I1J X400-Q8B5 K3PT-0111 QOOD-C6G8"
+    },
+    {
+     "gt": "X4O0-Q8B5 0O8B M3rn-NN11 K3PT-011l rn-m-nn L1I7-G6C0 I1l| G6C 17Il-l1I7 Q0OD-C6G8 8B5S-2Z0O S52Z-Il1J",
+     "ocr": "X400-Q8B5 008B M3rn-NN11 K3PT-0111 m-m-nn L117-G6CO I1l| G6C 1711-1117 QOOD-C6G8 8B5S-2Z00 S52Z-II1J"
+    },
+    {
+     "gt": "8B5S-2Z0O 0O8B M3rn-NN11 Q0OD-C6G8 rn-m-nn K3PT-011l S52Z-Il1J G6C X4O0-Q8B5 L1I7-G6C0 17Il-l1I7 I1l|",
+     "ocr": "RRSS.2700 OORR M3m-NN11 QOOD-C6G8 rn-m-nn K3PT-0111 S52Z-II1J G6C X400-Q8B5 L117-G6CO 1711-1117 111||"
+    },
+    {
+     "gt": "17Il-l1I7 I1l| X4O0-Q8B5 S52Z-Il1J 0O8B G6C 8B5S-2Z0O M3rn-NN11 L1I7-G6C0 rn-m-nn Q0OD-C6G8 K3PT-011l",
+     "ocr": "1711-I117 I1I| X400-Q8B5 S52Z-1l1J 008B G6C 8B5S-2Z00 M3rn-NN11 L1I7-G6CO rn-m-nn QOOD-C6G8 K3PT-0111"
+    },
+    {
+     "gt": "rn-m-nn I1l| G6C M3rn-NN11 K3PT-011l X4O0-Q8B5 Q0OD-C6G8 17Il-l1I7 0O8B S52Z-Il1J 8B5S-2Z0O L1I7-G6C0",
+     "ocr": "in-m-nn hll Gad M3rn-NN11K3PT-011I X400-Q8B5 QOOD-C6G8 171I-1117 008B S52Z-II1J 885S-2Z00 L117-G6CO"
+    },
+    {
+     "gt": "S52Z-Il1J I1l| G6C L1I7-G6C0 0O8B M3rn-NN11 K3PT-011l Q0OD-C6G8 17Il-l1I7 8B5S-2Z0O rn-m-nn X4O0-Q8B5",
+     "ocr": "S52Z-II1J I1|| G6C L117-G6CO 008B M3rn-NN11 K3PT-0111 QOOD-C6G8 1711-|117 8B5S-2Z00 m-m-nn X400-Q8B5"
+    }
+   ],
+   "crowded": [
+    {
+     "gt": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civil obvious million deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly",
+     "ocr": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble cerner kincdom artora unique particula DOGDC official civil ohvinue millior deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel guickly"
+    },
+    {
+     "gt": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official Illinois",
+     "ocr": "obvious graph graduate kernel OQGDC billow qulet vivid Zurich ilasaw ingdom parallel minimum illusion lullaby nornina Madrid modern Quebec BENCHMARI leliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammai ouncil uni que hvphen hiiack afford quickly buoyant calendar opi nion million Dublin banana mirror keyboard clean civil official Illinois"
+    },
+    {
+     "gt": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle Illinois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS",
+     "ocr": "afford exact quiet OQGDC hyphen part\u0131 cular illusion kernel modern obvious Zurich morning jigsaw lullaby mirror +EN\u0442\u0439RK counei ng il ok obec Tronchie deliberate parallel puzzle Illinois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean milllon ILLINOS"
+    },
+    {
+     "gt": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel",
+     "ocr": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard ullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel"
+    },
+    {
+     "gt": "unkempt parallel Illinois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modern million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly",
+     "ocr": "unkempt parallel Illinois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack Illusion exact modern million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular Ayang mirkerqul bulble pillow obvious"
+    },
+    {
+     "gt": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular morning kernel banana vivid bubble puzzle council official franchise flying deliberate Illinois OQGDC graduate",
+     "ocr": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hi jack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civill illusion unique modern pinion qulet milion arrord tullad tadrid quickly Zurich particular mornin: kernel banana vivid bubble puzzle council official franchise flying deli berate Illinois OQGDC graduate"
+    },
+    {
+     "gt": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble Illinois puzzle pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel quiet graph afford BENCHMARK hyphen morning banana kingdom",
+     "ocr": "raduate modern unkempt exact opinion ranchise grammar kevboard buovant quickly bubble Illinois puzzle pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar nijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel iet graph afford BENCHMARK hyphe orning banana kingdo\u0131"
+    },
+    {
+     "gt": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard",
+     "ocr": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard"
+    }
+   ],
+   "low-contrast": [
+    {
+     "gt": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civil obvious million deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly",
+     "ocr": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civil obvious million | deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly"
+    },
+    {
+     "gt": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official Illinois",
+     "ocr": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle l flying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official Illinois"
+    },
+    {
+     "gt": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle Illinois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS",
+     "ocr": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle Illinois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS"
+    },
+    {
+     "gt": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel",
+     "ocr": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel"
+    },
+    {
+     "gt": "unkempt parallel Illinois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modern million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly",
+     "ocr": "unkempt parallel Illinois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hi jack illusion exact modern million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly"
+    },
+    {
+     "gt": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular morning kernel banana vivid bubble puzzle council official franchise flying deliberate Illinois OQGDC graduate",
+     "ocr": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular morning kernel banana vivid bubble puzzle council official franchise flying deliberate Illinois OQGDC graduate"
+    },
+    {
+     "gt": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble Illinois puzzle pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel quiet graph afford BENCHMARK hyphen morning banana kingdom",
+     "ocr": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble Illinois puzzle pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular | vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel quiet graph afford BENCHMARK hyphen morning banana kingdom"
+    },
+    {
+     "gt": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard",
+     "ocr": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar | lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard"
+    }
+   ]
+  },
+  "Legibility Sans": {
+   "body-9px": [
+    {
+     "gt": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civil obvious million deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly",
+     "ocr": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civil obvious million deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow Darallel quic kly"
+    },
+    {
+     "gt": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official Illinois",
+     "ocr": "oovious araon qraduate kemel oQGbe pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid moder Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammar council unique hyphen hijack afford quic kly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official fllinois"
+    },
+    {
+     "gt": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle Illinois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS",
+     "ocr": "\u0430\u0442\u0442\u043e\u0433\u0430 exa\u0441\u0442 quet oogbc nonen particular illusion kernel modem obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle illinois graph vivid civil banana official kingdom quic kly buoyant opinion keyboard calendar"
+    },
+    {
+     "gt": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel",
+     "ocr": "aLLINols exact unique nyonen kingoom graph Zurich modern council kemel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimumhijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning quedec banana parallel"
+    },
+    {
+     "gt": "unkempt parallel Illinois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modern million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly",
+     "ocr": "unkempt parallel llinois qraduate danana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modem million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious Tiyina mirtor qulckly"
+    },
+    {
+     "gt": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular morning kernel banana vivid bubble puzzle council official franchise flying deliberate Illinois OQGDC graduate",
+     "ocr": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular moring kernel banana vivid bubble puzzle council official franc hise flying deliberate alnols ucGbe graduate"
+    },
+    {
+     "gt": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble Illinois puzzle pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel quiet graph afford BENCHMARK hyphen morning banana kingdom",
+     "ocr": "graduate modem unkempt exact opinion franchise grammar keyboard buoyant quickly bubble Illinois puzzle pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kemel quiet graph afford BENCHMARK hyphen morning banana kingdom"
+    },
+    {
+     "gt": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard",
+     "ocr": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard"
+    }
+   ],
+   "body-12px": [
+    {
+     "gt": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civil obvious million deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly",
+     "ocr": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civil obvious million deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly"
+    },
+    {
+     "gt": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official Illinois",
+     "ocr": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official Illinois"
+    },
+    {
+     "gt": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle Illinois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS",
+     "ocr": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle Illinois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS"
+    },
+    {
+     "gt": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel",
+     "ocr": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel"
+    },
+    {
+     "gt": "unkempt parallel Illinois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modern million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly",
+     "ocr": "unkempt parallel Illinois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modern million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly"
+    },
+    {
+     "gt": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular morning kernel banana vivid bubble puzzle council official franchise flying deliberate Illinois OQGDC graduate",
+     "ocr": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular morning kernel banana vivid bubble puzzle council official franchise flying deliberate Illinois OQGDC graduate"
+    },
+    {
+     "gt": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble Illinois puzzle pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel quiet graph afford BENCHMARK hyphen morning banana kingdom",
+     "ocr": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble Illinois puzzle pillow unique lullabymillion civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel quiet graph afford BENCHMARK hyphen morning banana kingdom"
+    },
+    {
+     "gt": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard",
+     "ocr": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard"
+    }
+   ],
+   "body-9px-blur": [
+    {
+     "gt": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civil obvious million deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly",
+     "ocr": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble ernel kingdom afford unique particular JaGDC official civil obvious mill ion deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly"
+    },
+    {
+     "gt": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official Illinois",
+     "ocr": "obvious graph graduate kemel OQGDC pillow quiet vivid Zurich jigsaw \u2039ingdom parallel minimum illusion lullaby morning Madrid modem Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle Ilying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official Illinois"
+    },
+    {
+     "gt": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle Illinois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS",
+     "ocr": "afford exact quiet OQGDC hyphen particular illusion kernel modem obvious Zurich morning jigsaw lullaby mirror Ilying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid JENCHMARK council unique Quebec franchise tel iberate parallel puzzle Illinois graph vivid civil banana officialkingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS"
+    },
+    {
+     "gt": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel",
+     "ocr": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kemel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate gradunte unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel"
+    },
+    {
+     "gt": "unkempt parallel Illinois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modern million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly",
+     "ocr": "unkempt parallel Illinois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact moder million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly"
+    },
+    {
+     "gt": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular morning kernel banana vivid bubble puzzle council official franchise flying deliberate Illinois OQGDC graduate",
+     "ocr": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lul laby Madrid quickly Zurich particular morning kernel banana vivid bubble puzzle council official franchise flying deliberate Illinois OQGDC graduate"
+    },
+    {
+     "gt": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble Illinois puzzle pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel quiet graph afford BENCHMARK hyphen morning banana kingdom",
+     "ocr": "graduate modem unkempt exact opinion franchise grammar keyboard buoyant quickly bubble Illinois puzzle pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OGGDC kernel quiet graph afford BENCHMARK hyphen morning banana kingdom"
+    },
+    {
+     "gt": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard",
+     "ocr": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard"
+    }
+   ],
+   "body-12px-blur": [
+    {
+     "gt": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civil obvious million deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly",
+     "ocr": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular ORGDC official civil obvious million deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly"
+    },
+    {
+     "gt": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official Illinois",
+     "ocr": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official Illinois"
+    },
+    {
+     "gt": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle Illinois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS",
+     "ocr": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle Illinois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS|"
+    },
+    {
+     "gt": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel",
+     "ocr": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel"
+    },
+    {
+     "gt": "unkempt parallel Illinois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modern million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly",
+     "ocr": "unkempt parallel Illinois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modern million deliberate BENCHMARK minimum Dubl in official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly"
+    },
+    {
+     "gt": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular morning kernel banana vivid bubble puzzle council official franchise flying deliberate Illinois OQGDC graduate",
+     "ocr": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern| opinion quiet million afford lullaby Madrid quickly Zurich particular morning kernel banana vivid bubble puzzle council official franchise flying deliberate Illinois OQGDC graduate"
+    },
+    {
+     "gt": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble Illinois puzzle pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel quiet graph afford BENCHMARK hyphen morning banana kingdom",
+     "ocr": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble Illinois puzzle pillow unique | lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel quiet graph afford BENCHMARK hyphen morning banana kingdom"
+    },
+    {
+     "gt": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard",
+     "ocr": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard"
+    }
+   ],
+   "glance": [
+    {
+     "gt": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civil obvious million deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly",
+     "ocr": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civil obvious million deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly"
+    },
+    {
+     "gt": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official Illinois",
+     "ocr": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official Illinois"
+    },
+    {
+     "gt": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle Illinois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS",
+     "ocr": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle Illinois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS"
+    },
+    {
+     "gt": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel",
+     "ocr": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel"
+    },
+    {
+     "gt": "unkempt parallel Illinois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modern million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly",
+     "ocr": "unkempt parallel Illinois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modern million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly"
+    },
+    {
+     "gt": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular morning kernel banana vivid bubble puzzle council official franchise flying deliberate Illinois OQGDC graduate",
+     "ocr": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular morning kernel banana vivid bubble puzzle council official franchise flying deliberate Illinois OQGDC graduate"
+    },
+    {
+     "gt": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble Illinois puzzle pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel quiet graph afford BENCHMARK hyphen morning banana kingdom",
+     "ocr": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble Illinois puzzle pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel quiet graph afford BENCHMARK hyphen morning banana kingdom"
+    },
+    {
+     "gt": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard",
+     "ocr": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard"
+    }
+   ],
+   "keystone": [
+    {
+     "gt": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civil obvious million deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly",
+     "ocr": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civil obvious million deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly"
+    },
+    {
+     "gt": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official Illinois",
+     "ocr": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official Illinois"
+    },
+    {
+     "gt": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle Illinois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS",
+     "ocr": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle Illinois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS"
+    },
+    {
+     "gt": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel",
+     "ocr": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel"
+    },
+    {
+     "gt": "unkempt parallel Illinois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modern million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly",
+     "ocr": "unkempt parallel Illinois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modern million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly"
+    },
+    {
+     "gt": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular morning kernel banana vivid bubble puzzle council official franchise flying deliberate Illinois OQGDC graduate",
+     "ocr": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular morning Kernel bananavizid bubble pizzle council official franchise flying deliberate Illinois OQGDC graduate"
+    },
+    {
+     "gt": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble Illinois puzzle pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel quiet graph afford BENCHMARK hyphen morning banana kingdom",
+     "ocr": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble Illinois puzzle pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel quiet graph afford BENCHMARK hyphen morning banana kingdom"
+    },
+    {
+     "gt": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard",
+     "ocr": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard"
+    }
+   ],
+   "inverted": [
+    {
+     "gt": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civil obvious million deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly",
+     "ocr": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civil obvious million deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly"
+    },
+    {
+     "gt": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official Illinois",
+     "ocr": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official Illinois"
+    },
+    {
+     "gt": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle Illinois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS",
+     "ocr": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle Illinois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS"
+    },
+    {
+     "gt": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel",
+     "ocr": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel"
+    },
+    {
+     "gt": "unkempt parallel Illinois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modern million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly",
+     "ocr": "unkempt parallel Illinois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modern million deliberatel BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly"
+    },
+    {
+     "gt": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular morning kernel banana vivid bubble puzzle council official franchise flying deliberate Illinois OQGDC graduate",
+     "ocr": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular morning kernel banana vivid bubble puzzle council official franchise flying deliberate Illinois OQGDC graduate"
+    },
+    {
+     "gt": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble Illinois puzzle pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel quiet graph afford BENCHMARK hyphen morning banana kingdom",
+     "ocr": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble Illinois puzzle pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel quiet graph afford BENCHMARK hyphen morning banana kingdom"
+    },
+    {
+     "gt": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard",
+     "ocr": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard"
+    }
+   ],
+   "passthrough": [
+    {
+     "gt": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civil obvious million deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly",
+     "ocr": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby; Iltingis Duiblin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civil obvious million deliberate flying ILLINOIS minimum mitror dlean jigsaw keyboard graduate Zurich pillow patallel quickly"
+    },
+    {
+     "gt": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official Illinois",
+     "ocr": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigs aw kingdom parallel minimum illusion luklaby) morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchisetbubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean: Civil ofticiat illinois"
+    },
+    {
+     "gt": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle Illinois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS",
+     "ocr": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious. Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammat Dublio piltow Madrid BENCHMARK counciltinique Quebec franchise deliberate parallel puzzle Iltnois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS"
+    },
+    {
+     "gt": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel",
+     "ocr": "ILLINOIS exact unique hyphen kingdom graph Zarich modern council kernel calendar miltion bubble afford opinion illusion quiet franchise mirror Illinots quickly Dublin OQGDE vivid keyboard tullaby clean grammas officiat BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular. flying civil buoyant pillow morning Quebec banana parallet"
+    },
+    {
+     "gt": "unkempt parallel Illinois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modern million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly",
+     "ocr": "unkempt parallel Illinois graduate banana keybaard graph ILLINOIS hyphen morning Madpld opinion civil kingdom hijack illusion exactmodern million deliberate BENCHMARK minimum Dublin-official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise coanciEvivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious: Flying-mirror quickly"
+    },
+    {
+     "gt": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular morning kernel banana vivid bubble puzzle council official franchise flying deliberate Illinois OQGDC graduate",
+     "ocr": "BENCHMARK exact pitlow obvious hyphen Dublia mirror graph minimum parallet unkemipt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil itlusion unique modern opinion quiet million atford tullaby Madrid quickly Zurich particular morning kernel banana vivid bubble puzzle counicil official franchise flying deliberafe Iltnois OQGDC graduate"
+    },
+    {
+     "gt": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble Illinois puzzle pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel quiet graph afford BENCHMARK hyphen morning banana kingdom",
+     "ocr": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble fllinois puzzle pillow unique Tullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid.flying calendar hijack Dublin couneiLILLINOIS deliberate jigsaw Quebec paraltel OQGDC kernel quiet gtaph afford BENCHMARK hyphen morning banana kingdom"
+    },
+    {
+     "gt": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard",
+     "ocr": "bubble OQGDC mirror hyphen kingdom puzzle miltion unique particular Dublin afford modern minimum Illinois calendar Tullaby hijack pitlow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning detiberate grammar official opinion Zurich exacE ELLINOIS unkempt quickly kernel itlusion graph civilclean quiet jigsaw BENCHMARK banana franchise keyboard"
+    }
+   ],
+   "codes-11px": [
+    {
+     "gt": "8B5S-2Z0O 17Il-l1I7 rn-m-nn Q0OD-C6G8 L1I7-G6C0 0O8B M3rn-NN11 X4O0-Q8B5 K3PT-011l G6C S52Z-Il1J I1l|",
+     "ocr": "8B5S-2Z00 17Il-[117 rn-m-nn QOOD-C6G8 L117-G6CO 008B M3rn-NN11 X400-Q8B5 K3PT-011L 0C S522-IL1I11|"
+    },
+    {
+     "gt": "8B5S-2Z0O 0O8B K3PT-011l M3rn-NN11 rn-m-nn I1l| S52Z-Il1J L1I7-G6C0 X4O0-Q8B5 17Il-l1I7 G6C Q0OD-C6G8",
+     "ocr": "8B5S-2Z00 008B K3PT-011l 3-m-m-11l S52Z-Il1J L117-G6CO X400-Q8B5 1711-1117 G6C QOOD-C6G8"
+    },
+    {
+     "gt": "17Il-l1I7 G6C 8B5S-2Z0O rn-m-nn I1l| L1I7-G6C0 0O8B M3rn-NN11 S52Z-Il1J X4O0-Q8B5 K3PT-011l Q0OD-C6G8",
+     "ocr": "1711-[117 G6C 8B5S-2Z0O rn-m-nn I1l| L117-G6CO 008B M3r-NN11 S52Z-Il1J X400-Q8B5 K3PT-011| Q0OD-C6G8"
+    },
+    {
+     "gt": "X4O0-Q8B5 0O8B M3rn-NN11 K3PT-011l rn-m-nn L1I7-G6C0 I1l| G6C 17Il-l1I7 Q0OD-C6G8 8B5S-2Z0O S52Z-Il1J",
+     "ocr": "X400-Q8B5 008B M3rn-NN11 K3PT-0111 rn-m-nn L117-G6C8 11|| G6C 1716-1117 QOOD-C6G8 8B5S-2Z00 S52Z-I(1J"
+    },
+    {
+     "gt": "8B5S-2Z0O 0O8B M3rn-NN11 Q0OD-C6G8 rn-m-nn K3PT-011l S52Z-Il1J G6C X4O0-Q8B5 L1I7-G6C0 17Il-l1I7 I1l|",
+     "ocr": "8B5S-2Z00 008B M3rn-NN11 QOOD-C6G8 rn-m-nn K3PT-011l S52Z-I|1J G6C X400-Q8B5 L117-G6CO 1711-1117 I1l|"
+    },
+    {
+     "gt": "17Il-l1I7 I1l| X4O0-Q8B5 S52Z-Il1J 0O8B G6C 8B5S-2Z0O M3rn-NN11 L1I7-G6C0 rn-m-nn Q0OD-C6G8 K3PT-011l",
+     "ocr": "1711-(117 I1L| X400-Q8B5 S52Z-1L1J 008B G6C 8B5S-2Z60 M3r-NN11 L117-G6CO rn-m-nn QOOD-C6G8 K3PT-011L"
+    },
+    {
+     "gt": "rn-m-nn I1l| G6C M3rn-NN11 K3PT-011l X4O0-Q8B5 Q0OD-C6G8 17Il-l1I7 0O8B S52Z-Il1J 8B5S-2Z0O L1I7-G6C0",
+     "ocr": "rn-m-nn I1l| G6C M3rn-NN11 K3PT-0111 X400-Q8B5 Q0OD-C6G8 1711-1117 608B S52Z-Il1J 8B5S-2Z00 L117-G6C\u00ae"
+    },
+    {
+     "gt": "S52Z-Il1J I1l| G6C L1I7-G6C0 0O8B M3rn-NN11 K3PT-011l Q0OD-C6G8 17Il-l1I7 8B5S-2Z0O rn-m-nn X4O0-Q8B5",
+     "ocr": "S52Z-Il1J I1l| G6C L117-G6CO 008B M3rn-NN11 K3PT-0111 QOOD-C6G8 1771-1117 8B5S-2Z00 rn-m-nn X400-Q8B5"
+    }
+   ],
+   "codes-glance": [
+    {
+     "gt": "8B5S-2Z0O 17Il-l1I7 rn-m-nn Q0OD-C6G8 L1I7-G6C0 0O8B M3rn-NN11 X4O0-Q8B5 K3PT-011l G6C S52Z-Il1J I1l|",
+     "ocr": "8B5S-2200 171l-[117 rn-m-nn QOOD-C6G8 L117-G6C0 008B M3rn-NN11 X400-Q8B5 K3PT-011l G6C S52Z-I|1J I1l]|"
+    },
+    {
+     "gt": "8B5S-2Z0O 0O8B K3PT-011l M3rn-NN11 rn-m-nn I1l| S52Z-Il1J L1I7-G6C0 X4O0-Q8B5 17Il-l1I7 G6C Q0OD-C6G8",
+     "ocr": "8B5S-2Z00 008\u0412 \u041a3PT-9111 M3rn-NN11 rn-m-nn I1l] S52Z-I|1J L117-G6CO X400-Q8B5 171l-1117 G6C QOOD-C6G8"
+    },
+    {
+     "gt": "17Il-l1I7 G6C 8B5S-2Z0O rn-m-nn I1l| L1I7-G6C0 0O8B M3rn-NN11 S52Z-Il1J X4O0-Q8B5 K3PT-011l Q0OD-C6G8",
+     "ocr": "171l-1117 G6C 8B5S-2Z00 rn-m-nn I1l| L117-G6CO 008B M3rn-NN11 S52Z-I|1J X400-Q8B5 K3PT-0111 QOOD-C6G8"
+    },
+    {
+     "gt": "X4O0-Q8B5 0O8B M3rn-NN11 K3PT-011l rn-m-nn L1I7-G6C0 I1l| G6C 17Il-l1I7 Q0OD-C6G8 8B5S-2Z0O S52Z-Il1J",
+     "ocr": "X400-Q8B5 008BM3rn-NN11 K3PT-011l rn-m-nn L117-G6CO I1l| G6C 171l-l117 QOOD-C6G8 8B5S-2Z00 S52Z-Il1J"
+    },
+    {
+     "gt": "8B5S-2Z0O 0O8B M3rn-NN11 Q0OD-C6G8 rn-m-nn K3PT-011l S52Z-Il1J G6C X4O0-Q8B5 L1I7-G6C0 17Il-l1I7 I1l|",
+     "ocr": "ARSS-2700 00RR M3rn-NN11 QOOD-C6G8 rn-m-nn K3PT-0111 S52Z-I|1J G6C X400-Q8B5| L117-G6CO 171|-[117 11l||"
+    },
+    {
+     "gt": "17Il-l1I7 I1l| X4O0-Q8B5 S52Z-Il1J 0O8B G6C 8B5S-2Z0O M3rn-NN11 L1I7-G6C0 rn-m-nn Q0OD-C6G8 K3PT-011l",
+     "ocr": "171l-1117 I1l| X400-Q8B5 S52Z-1l1J 008B G6C 8B5S-2Z00 M3rn-NN11 L117-G6C8 rn-m-nn QOOD-C6G8 K3PT-011l"
+    },
+    {
+     "gt": "rn-m-nn I1l| G6C M3rn-NN11 K3PT-011l X4O0-Q8B5 Q0OD-C6G8 17Il-l1I7 0O8B S52Z-Il1J 8B5S-2Z0O L1I7-G6C0",
+     "ocr": "rn-m-nn I1l| G6C M3rn-NN11 K3PT-011l X400-Q8B5 QOOD-C6G8 171l-[117 008B S52Z-Il1J 885S-2200 L117-G6C6"
+    },
+    {
+     "gt": "S52Z-Il1J I1l| G6C L1I7-G6C0 0O8B M3rn-NN11 K3PT-011l Q0OD-C6G8 17Il-l1I7 8B5S-2Z0O rn-m-nn X4O0-Q8B5",
+     "ocr": "S52Z-I|1J I1|| G6C L117-G6CO 008B M3rn-NN11 K3PT-011| Q0OD-C6G8 171l-(117 8B5S-2200 rn-m-nn X400-Q8B5"
+    }
+   ],
+   "crowded": [
+    {
+     "gt": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civil obvious million deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly",
+     "ocr": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble <ernel kingdom afford unique particular JQGDC official civil obvious millior deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly"
+    },
+    {
+     "gt": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official Illinois",
+     "ocr": "obvious graph graduate kernel OQGDC hllow aulet viwd Zumich nasav \u0131ngdom parallel m\u0131n\u0131mum \u0131llusion lullab norning Madrid modern Quebec BENCHMARH leliberate ILLINOIS exact unkempt puzzle lying particular franchise bubble gramma ollae unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official Illinois"
+    },
+    {
+     "gt": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle Illinois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS",
+     "ocr": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduatehijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle illinois graph vivid civil banana official kingdom quic kly buoyant opinion keyboard calendar :lean million ILLINOIS"
+    },
+    {
+     "gt": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel",
+     "ocr": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel"
+    },
+    {
+     "gt": "unkempt parallel Illinois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modern million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly",
+     "ocr": "unkempt parallel Illinois graduate banana \u2039eyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modern million deliberate BENCHMARK minimum Dublin official jigsaw QGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular Rying miror auibubble pillow obvious"
+    },
+    {
+     "gt": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular morning kernel banana vivid bubble puzzle council official franchise flying deliberate Illinois OQGDC graduate",
+     "ocr": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular morning kernel banana vivid bubble puzzle ouncil official franchise flying deliberate Illinois OQGDC graduate"
+    },
+    {
+     "gt": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble Illinois puzzle pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel quiet graph afford BENCHMARK hyphen morning banana kingdom",
+     "ocr": "\u0131raduate modern unkempt exact opinior ranchise grammar keyboard buoyant quickly bubble Illinois puzzle pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular rivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel quiet graph afford BENCHMARK hyphen morning banana kingdom"
+    },
+    {
+     "gt": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard",
+     "ocr": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid rivid tlving morning deliberate aramma fficial opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard"
+    }
+   ],
+   "low-contrast": [
+    {
+     "gt": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civil obvious million deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly",
+     "ocr": "puzzle graph quiet exact calendar Quebec morning unkempt council lullaby Illinois Dublin vivid illusion modern buoyant hyphen franchise Madrid grammar hijack BENCHMARK banana opinion bubble kernel kingdom afford unique particular OQGDC official civil obvious million deliberate flying ILLINOIS minimum mirror clean jigsaw keyboard graduate Zurich pillow parallel quickly"
+    },
+    {
+     "gt": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official Illinois",
+     "ocr": "obvious graph graduate kernel OQGDC pillow quiet vivid Zurich jigsaw kingdom parallel minimum illusion lullaby morning Madrid modern Quebec BENCHMARK deliberate ILLINOIS exact unkempt puzzle flying particular franchise bubble grammar council unique hyphen hijack afford quickly buoyant calendar opinion million Dublin banana mirror keyboard clean civil official Illinois"
+    },
+    {
+     "gt": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle Illinois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS",
+     "ocr": "afford exact quiet OQGDC hyphen particular illusion kernel modern obvious Zurich morning jigsaw lullaby mirror flying minimum bubble graduate hijack unkempt grammar Dublin pillow Madrid BENCHMARK council unique Quebec franchise deliberate parallel puzzle Illinois graph vivid civil banana official kingdom quickly buoyant opinion keyboard calendar clean million ILLINOIS"
+    },
+    {
+     "gt": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel",
+     "ocr": "ILLINOIS exact unique hyphen kingdom graph Zurich modern council kernel| calendar million bubble afford opinion illusion quiet franchise mirror Illinois quickly Dublin OQGDC vivid keyboard lullaby clean grammar official BENCHMARK minimum hijack deliberate graduate unkempt Madrid obvious puzzle jigsaw particular flying civil buoyant pillow morning Quebec banana parallel"
+    },
+    {
+     "gt": "unkempt parallel Illinois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modern million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly",
+     "ocr": "unkempt parallel Illinois graduate banana keyboard graph ILLINOIS hyphen morning Madrid opinion civil kingdom hijack illusion exact modern million deliberate BENCHMARK minimum Dublin official jigsaw OQGDC Quebec Zurich afford puzzle unique franchise council vivid quiet calendar clean lullaby buoyant particular grammar kernel bubble pillow obvious flying mirror quickly"
+    },
+    {
+     "gt": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular morning kernel banana vivid bubble puzzle council official franchise flying deliberate Illinois OQGDC graduate",
+     "ocr": "BENCHMARK exact pillow obvious hyphen Dublin mirror graph minimum parallel unkempt buoyant hijack jigsaw calendar clean grammar kingdom ILLINOIS Quebec keyboard civil illusion unique modern opinion quiet million afford lullaby Madrid quickly Zurich particular morning kernel banana vivid bubble puzzle council official franchise flying deliberate Illinois OQGDC graduate"
+    },
+    {
+     "gt": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble Illinois puzzle pillow unique lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel quiet graph afford BENCHMARK hyphen morning banana kingdom",
+     "ocr": "graduate modern unkempt exact opinion franchise grammar keyboard buoyant quickly bubble Illinois puzzle pillow unique Lullaby million civil Zurich minimum obvious illusion clean mirror particular vivid official Madrid flying calendar hijack Dublin council ILLINOIS deliberate jigsaw Quebec parallel OQGDC kernel quiet graph afford BENCHMARK hyphen morning banana kingdom"
+    },
+    {
+     "gt": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard",
+     "ocr": "bubble OQGDC mirror hyphen kingdom puzzle million unique particular Dublin afford modern minimum Illinois calendar lullaby hijack pillow obvious graduate parallel buoyant Quebec council Madrid vivid flying morning deliberate grammar official opinion Zurich exact ILLINOIS unkempt quickly kernel illusion graph civil clean quiet jigsaw BENCHMARK banana franchise keyboard"
+    }
+   ]
+  }
+ }
+}

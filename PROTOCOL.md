@@ -130,6 +130,10 @@ The treatment code is byte-identical to v2 (`bench/bench_v2_core.py`).
 **Size-threshold sweep.** Clean body text additionally renders at
 6, 7, 8, 9, 10, 11, 12, 14, 16 px. A font's **"legible down to N px"** is the
 smallest size whose mean character accuracy meets or exceeds **90%**.
+Thresholds carry uncertainty exactly as means do: the published figure ships
+with its per-repetition pass count (for example, 6 of 8 runs over the line),
+and a threshold whose runs straddle the criterion is a soft boundary, not a
+wall.
 
 ## 5. Repetitions, seeds, scoring
 
@@ -171,6 +175,18 @@ Run once per protocol version, published with the results:
   once against the final binaries and published beside the main table. A face
   that won the main corpus but collapses on the holdout has learned the test;
   none of ours does, and you can verify that.
+
+### Ceiling note
+
+The low-contrast cell sits at ceiling for every face in the current panel; it
+is retained as a sanity check and carries almost no between-font variance. The
+v4 roadmap drops ceiling cells from summary scores; v3.1 keeps the grand mean
+definition stable and states the fact here instead.
+
+One disclosure that belongs next to any small-size claim: Legibility Sans and
+Verdana wear nearly identical x-height ratios (≈0.546 vs ≈0.545 of nominal
+size), so their small-size comparison is a comparison of construction, not of
+size normalization.
 
 ## 7. What this index is not
 

@@ -18,8 +18,10 @@ battery now measures each directly:
    styling), polarity, geometry, background clutter.
 
 Changes from v3: two new conditions (crowded, low-contrast), raw reader output
-retained for confusion analysis, comparables panel expanded, Bear Sans rows
-retired from the published table at the owner's direction. Rendering, scoring,
+retained for confusion analysis, comparables panel expanded. Bear Sans rows move to
+the archive: they are another product's embedded binaries, locally resolved
+and not licensable by a reader, so third parties cannot reproduce those rows.
+System fonts (Verdana, Georgia, Comic Sans MS) stay: they resolve on any Mac. Rendering, scoring,
 seeds, and all ten v3 conditions are unchanged.
 """
 import json, math, os, random, subprocess, sys

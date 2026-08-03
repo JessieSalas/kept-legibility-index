@@ -5,11 +5,11 @@ sentence is not in this file, it is not a claim we make.
 
 | Claim | Evidence |
 |---|---|
-| "The top tier is a five-way statistical tie: IBM Plex Sans 96.5, Public Sans 96.5, Legibility Sans 96.4, Kept Sans 96.1, Atkinson Hyperlegible Next 96.0." | `results/v31/results-v31-OFFICIAL.json` grand means; every pairwise paired-bootstrap CI among the five crosses zero (`paired_comparisons`). |
+| "The top tier is drawn by the CI-overlap rule and holds six faces: IBM Plex Sans 96.5, Public Sans 96.5, Legibility Sans 96.4, Kept Sans 96.3, Atkinson Hyperlegible Next 96.0, Verdana 95.6." | `results/v31/results-v31-OFFICIAL.json`; run `bench/stats.py <results> --tiers`. |
 | "Legibility Sans is the only typeface in the index legible down to 8 px." | Threshold sweep, criterion 90%: Legibility Sans 92% at 8 px; next best Verdana 88%, Kept Sans 86%. |
 | "Legibility Sans beats Verdana outright when text is set tight." | `crowded` cell 98.3 vs 86.8. The crowding condition entered the protocol after the font was frozen. |
-| "Legibility Sans is ahead of Verdana overall; the margin is within our error bars." | Grand 96.4 vs 95.6; paired diff +0.76, 95% CI [−0.47, +2.10], crosses zero and is published as a tier. |
-| "Kept Sans is ahead of Inter with the confidence interval clear of zero." | Paired diff +1.31, 95% CI [+0.06, +2.57]. |
+| "Legibility Sans is ahead of Verdana overall; the margin is within our error bars." | Grand 96.4 vs 95.6; paired diff +0.78, 95% CI [−0.07, +1.85], grazes zero and is published as a tier. |
+| "Kept Sans is ahead of Inter by 1.5 points; the interval grazes zero." | Paired diff +1.47, 95% CI [−0.04, +2.80]; stated as ahead-within-error, never as significant. |
 | "Verdana drops out of the top tier at tight setting." | Grand 95.6 (sixth); `crowded` 86.8, nine points under its clean-size standing. |
 | "Numen Title is the strongest display serif measured; Charter, a text serif, edges it overall within the error bars." | Numen Title 94.2 vs Charter 94.8; paired CI [−2.64, +1.13], crosses zero. Crowding scope note (79.5) published alongside. |
 | "Instrument Serif reads 55% at 9 px and needs 12 px to cross 90%." | `body-9px` 55.0; threshold ladder. |
