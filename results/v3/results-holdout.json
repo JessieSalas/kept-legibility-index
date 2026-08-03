@@ -1,0 +1,38 @@
+{
+ "Legibility Sans": {
+  "body-9px": 0.9812,
+  "body-9px-blur": 0.9935,
+  "codes-11px": 0.8718,
+  "codes-glance": 0.766
+ },
+ "Kept Sans": {
+  "body-9px": 0.9592,
+  "body-9px-blur": 0.9608,
+  "codes-11px": 0.8974,
+  "codes-glance": 0.8686
+ },
+ "Numen Title": {
+  "body-9px": 0.9567,
+  "body-9px-blur": 0.9542,
+  "codes-11px": 0.8077,
+  "codes-glance": 0.734
+ },
+ "Verdana": {
+  "body-9px": 0.9894,
+  "body-9px-blur": 0.991,
+  "codes-11px": 0.8558,
+  "codes-glance": 0.7788
+ },
+ "Inter": {
+  "body-9px": 0.915,
+  "body-9px-blur": 0.9257,
+  "codes-11px": 0.875,
+  "codes-glance": 0.5353
+ },
+ "Bear Sans Heading": {
+  "body-9px": 0.9837,
+  "body-9px-blur": 0.9828,
+  "codes-11px": 0.8974,
+  "codes-glance": 0.7692
+ }
+}

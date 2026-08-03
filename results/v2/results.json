@@ -1,0 +1,632 @@
+{
+ "ocr": {
+  "Kept Sans": {
+   "body-9px": 0.9524,
+   "body-12px": 1.0,
+   "body-9px-blur": 0.9689,
+   "body-12px-blur": 0.9959,
+   "glance": 1.0,
+   "tilt-45": 1.0,
+   "dark": 1.0,
+   "passthrough": 0.9545,
+   "codes-11px": 0.8301,
+   "codes-glance": 0.8235
+  },
+  "Numen Title": {
+   "body-9px": 0.9213,
+   "body-12px": 1.0,
+   "body-9px-blur": 0.942,
+   "body-12px-blur": 0.9917,
+   "glance": 1.0,
+   "tilt-45": 1.0,
+   "dark": 1.0,
+   "passthrough": 0.9648,
+   "codes-11px": 0.8301,
+   "codes-glance": 0.8301
+  },
+  "Kept Display": {
+   "body-9px": 0.7743,
+   "body-12px": 0.9959,
+   "body-9px-blur": 0.9234,
+   "body-12px-blur": 1.0,
+   "glance": 1.0,
+   "tilt-45": 1.0,
+   "dark": 0.9979,
+   "passthrough": 0.9607,
+   "codes-11px": 0.8627,
+   "codes-glance": 0.7451
+  },
+  "Numen Sans": {
+   "body-9px": 0.853,
+   "body-12px": 1.0,
+   "body-9px-blur": 0.9462,
+   "body-12px-blur": 1.0,
+   "glance": 1.0,
+   "tilt-45": 0.9959,
+   "dark": 0.9979,
+   "passthrough": 0.9545,
+   "codes-11px": 0.8431,
+   "codes-glance": 0.6732
+  },
+  "Kept Sans v1": {
+   "body-9px": 0.8116,
+   "body-12px": 1.0,
+   "body-9px-blur": 0.9172,
+   "body-12px-blur": 0.9979,
+   "glance": 1.0,
+   "tilt-45": 0.9979,
+   "dark": 1.0,
+   "passthrough": 0.9524,
+   "codes-11px": 0.8301,
+   "codes-glance": 0.5294
+  },
+  "Bear Sans UI": {
+   "body-9px": 0.9213,
+   "body-12px": 1.0,
+   "body-9px-blur": 0.9441,
+   "body-12px-blur": 0.9938,
+   "glance": 1.0,
+   "tilt-45": 1.0,
+   "dark": 1.0,
+   "passthrough": 0.9545,
+   "codes-11px": 0.8039,
+   "codes-glance": 0.6405
+  },
+  "Bear Sans Heading": {
+   "body-9px": 0.9607,
+   "body-12px": 1.0,
+   "body-9px-blur": 0.9669,
+   "body-12px-blur": 0.9834,
+   "glance": 0.9959,
+   "tilt-45": 0.9959,
+   "dark": 1.0,
+   "passthrough": 0.9772,
+   "codes-11px": 0.8954,
+   "codes-glance": 0.7255
+  },
+  "Atkinson Hyperlegible": {
+   "body-9px": 0.911,
+   "body-12px": 0.9979,
+   "body-9px-blur": 0.9482,
+   "body-12px-blur": 0.9979,
+   "glance": 0.9669,
+   "tilt-45": 0.9979,
+   "dark": 0.9917,
+   "passthrough": 0.9689,
+   "codes-11px": 0.8497,
+   "codes-glance": 0.5098
+  },
+  "Atkinson Next": {
+   "body-9px": 0.7847,
+   "body-12px": 0.9979,
+   "body-9px-blur": 0.9627,
+   "body-12px-blur": 1.0,
+   "glance": 1.0,
+   "tilt-45": 1.0,
+   "dark": 1.0,
+   "passthrough": 0.9627,
+   "codes-11px": 0.8693,
+   "codes-glance": 0.7778
+  },
+  "Inter": {
+   "body-9px": 0.9358,
+   "body-12px": 0.9938,
+   "body-9px-blur": 0.9006,
+   "body-12px-blur": 0.9917,
+   "glance": 1.0,
+   "tilt-45": 0.9979,
+   "dark": 0.9917,
+   "passthrough": 0.9565,
+   "codes-11px": 0.8301,
+   "codes-glance": 0.7778
+  },
+  "SF Pro": {
+   "body-9px": 0.8551,
+   "body-12px": 0.9938,
+   "body-9px-blur": 0.9068,
+   "body-12px-blur": 0.9482,
+   "glance": 0.9959,
+   "tilt-45": 0.9979,
+   "dark": 0.9855,
+   "passthrough": 0.9482,
+   "codes-11px": 0.7582,
+   "codes-glance": 0.7712
+  },
+  "Helvetica Neue": {
+   "body-9px": 0.8157,
+   "body-12px": 1.0,
+   "body-9px-blur": 0.8758,
+   "body-12px-blur": 0.9959,
+   "glance": 1.0,
+   "tilt-45": 0.9979,
+   "dark": 1.0,
+   "passthrough": 0.9648,
+   "codes-11px": 0.8562,
+   "codes-glance": 0.7255
+  },
+  "Arial": {
+   "body-9px": 0.6501,
+   "body-12px": 0.9979,
+   "body-9px-blur": 0.9213,
+   "body-12px-blur": 0.9917,
+   "glance": 0.9938,
+   "tilt-45": 0.9959,
+   "dark": 1.0,
+   "passthrough": 0.9545,
+   "codes-11px": 0.8693,
+   "codes-glance": 0.6209
+  },
+  "Verdana": {
+   "body-9px": 0.9834,
+   "body-12px": 1.0,
+   "body-9px-blur": 0.9834,
+   "body-12px-blur": 1.0,
+   "glance": 1.0,
+   "tilt-45": 0.9979,
+   "dark": 1.0,
+   "passthrough": 0.9669,
+   "codes-11px": 0.8562,
+   "codes-glance": 0.8366
+  },
+  "Roboto": {
+   "body-9px": 0.9027,
+   "body-12px": 1.0,
+   "body-9px-blur": 0.9565,
+   "body-12px-blur": 0.9917,
+   "glance": 0.9959,
+   "tilt-45": 0.9979,
+   "dark": 1.0,
+   "passthrough": 0.9689,
+   "codes-11px": 0.8235,
+   "codes-glance": 0.6667
+  },
+  "Figtree": {
+   "body-9px": 0.8716,
+   "body-12px": 1.0,
+   "body-9px-blur": 0.9234,
+   "body-12px-blur": 1.0,
+   "glance": 1.0,
+   "tilt-45": 0.9938,
+   "dark": 1.0,
+   "passthrough": 0.9482,
+   "codes-11px": 0.817,
+   "codes-glance": 0.5425
+  },
+  "Instrument Serif": {
+   "body-9px": 0.6998,
+   "body-12px": 0.9814,
+   "body-9px-blur": 0.4886,
+   "body-12px-blur": 0.8737,
+   "glance": 0.9752,
+   "tilt-45": 0.8986,
+   "dark": 0.9772,
+   "passthrough": 0.8923,
+   "codes-11px": 0.6928,
+   "codes-glance": 0.5229
+  },
+  "Georgia": {
+   "body-9px": 0.9772,
+   "body-12px": 1.0,
+   "body-9px-blur": 0.9234,
+   "body-12px-blur": 0.9917,
+   "glance": 1.0,
+   "tilt-45": 0.9979,
+   "dark": 1.0,
+   "passthrough": 0.9627,
+   "codes-11px": 0.8366,
+   "codes-glance": 0.7843
+  },
+  "Times New Roman": {
+   "body-9px": 0.9255,
+   "body-12px": 0.9917,
+   "body-9px-blur": 0.8427,
+   "body-12px-blur": 0.9772,
+   "glance": 0.9648,
+   "tilt-45": 0.9917,
+   "dark": 0.9876,
+   "passthrough": 0.9027,
+   "codes-11px": 0.7516,
+   "codes-glance": 0.719
+  },
+  "Charter": {
+   "body-9px": 0.9503,
+   "body-12px": 1.0,
+   "body-9px-blur": 0.9669,
+   "body-12px-blur": 0.9752,
+   "glance": 1.0,
+   "tilt-45": 0.9959,
+   "dark": 1.0,
+   "passthrough": 0.9503,
+   "codes-11px": 0.7843,
+   "codes-glance": 0.5752
+  }
+ },
+ "meta": {
+  "Kept Sans": {
+   "pair_separability": 0.2903,
+   "pairs": {
+    "I/l": 0.1197,
+    "l/1": 0.4432,
+    "I/1": 0.422,
+    "rn/m": 0.2119,
+    "O/0": 0.2987,
+    "8/B": 0.1919,
+    "5/S": 0.2806,
+    "2/Z": 0.2253,
+    "cl/d": 0.6824,
+    "e/c": 0.1724,
+    "a/o": 0.2822,
+    "g/q": 0.1531
+   },
+   "xheight_ratio": 0.53
+  },
+  "Numen Title": {
+   "pair_separability": 0.2768,
+   "pairs": {
+    "I/l": 0.1239,
+    "l/1": 0.154,
+    "I/1": 0.082,
+    "rn/m": 0.4255,
+    "O/0": 0.3368,
+    "8/B": 0.2393,
+    "5/S": 0.2798,
+    "2/Z": 0.3596,
+    "cl/d": 0.6025,
+    "e/c": 0.0994,
+    "a/o": 0.2831,
+    "g/q": 0.3363
+   },
+   "xheight_ratio": 0.48
+  },
+  "Kept Display": {
+   "pair_separability": 0.3094,
+   "pairs": {
+    "I/l": 0.275,
+    "l/1": 0.4983,
+    "I/1": 0.3652,
+    "rn/m": 0.186,
+    "O/0": 0.2917,
+    "8/B": 0.227,
+    "5/S": 0.2035,
+    "2/Z": 0.3349,
+    "cl/d": 0.525,
+    "e/c": 0.2341,
+    "a/o": 0.3145,
+    "g/q": 0.2581
+   },
+   "xheight_ratio": 0.5
+  },
+  "Numen Sans": {
+   "pair_separability": 0.2789,
+   "pairs": {
+    "I/l": 0.1156,
+    "l/1": 0.2509,
+    "I/1": 0.3343,
+    "rn/m": 0.1455,
+    "O/0": 0.4686,
+    "8/B": 0.161,
+    "5/S": 0.2394,
+    "2/Z": 0.337,
+    "cl/d": 0.6111,
+    "e/c": 0.2443,
+    "a/o": 0.2976,
+    "g/q": 0.1412
+   },
+   "xheight_ratio": 0.5
+  },
+  "Kept Sans v1": {
+   "pair_separability": 0.2849,
+   "pairs": {
+    "I/l": 0.1617,
+    "l/1": 0.3841,
+    "I/1": 0.4946,
+    "rn/m": 0.2131,
+    "O/0": 0.3622,
+    "8/B": 0.1138,
+    "5/S": 0.2166,
+    "2/Z": 0.2918,
+    "cl/d": 0.573,
+    "e/c": 0.1776,
+    "a/o": 0.2817,
+    "g/q": 0.1489
+   },
+   "xheight_ratio": 0.5
+  },
+  "Bear Sans UI": {
+   "pair_separability": 0.3147,
+   "pairs": {
+    "I/l": 0.1554,
+    "l/1": 0.5718,
+    "I/1": 0.4973,
+    "rn/m": 0.2757,
+    "O/0": 0.5254,
+    "8/B": 0.1845,
+    "5/S": 0.2013,
+    "2/Z": 0.273,
+    "cl/d": 0.3828,
+    "e/c": 0.2594,
+    "a/o": 0.3274,
+    "g/q": 0.1217
+   },
+   "xheight_ratio": 0.47
+  },
+  "Bear Sans Heading": {
+   "pair_separability": 0.2699,
+   "pairs": {
+    "I/l": 0.0781,
+    "l/1": 0.464,
+    "I/1": 0.4681,
+    "rn/m": 0.2512,
+    "O/0": 0.4207,
+    "8/B": 0.1631,
+    "5/S": 0.1354,
+    "2/Z": 0.2403,
+    "cl/d": 0.3555,
+    "e/c": 0.2828,
+    "a/o": 0.2283,
+    "g/q": 0.1515
+   },
+   "xheight_ratio": 0.49
+  },
+  "Atkinson Hyperlegible": {
+   "pair_separability": 0.3056,
+   "pairs": {
+    "I/l": 0.2285,
+    "l/1": 0.4985,
+    "I/1": 0.4234,
+    "rn/m": 0.1288,
+    "O/0": 0.3191,
+    "8/B": 0.233,
+    "5/S": 0.2071,
+    "2/Z": 0.3483,
+    "cl/d": 0.513,
+    "e/c": 0.2389,
+    "a/o": 0.2861,
+    "g/q": 0.2422
+   },
+   "xheight_ratio": 0.5
+  },
+  "Atkinson Next": {
+   "pair_separability": 0.3093,
+   "pairs": {
+    "I/l": 0.2759,
+    "l/1": 0.498,
+    "I/1": 0.3635,
+    "rn/m": 0.1859,
+    "O/0": 0.2912,
+    "8/B": 0.2271,
+    "5/S": 0.2045,
+    "2/Z": 0.3352,
+    "cl/d": 0.5251,
+    "e/c": 0.2336,
+    "a/o": 0.3138,
+    "g/q": 0.2583
+   },
+   "xheight_ratio": 0.5
+  },
+  "Inter": {
+   "pair_separability": 0.3096,
+   "pairs": {
+    "I/l": 0.0,
+    "l/1": 0.4433,
+    "I/1": 0.4433,
+    "rn/m": 0.397,
+    "O/0": 0.3776,
+    "8/B": 0.1626,
+    "5/S": 0.2721,
+    "2/Z": 0.3726,
+    "cl/d": 0.7037,
+    "e/c": 0.1821,
+    "a/o": 0.2379,
+    "g/q": 0.1227
+   },
+   "xheight_ratio": 0.54
+  },
+  "SF Pro": {
+   "pair_separability": 0.2585,
+   "pairs": {
+    "I/l": 0.0,
+    "l/1": 0.3961,
+    "I/1": 0.3961,
+    "rn/m": 0.1306,
+    "O/0": 0.359,
+    "8/B": 0.1707,
+    "5/S": 0.2445,
+    "2/Z": 0.3753,
+    "cl/d": 0.4805,
+    "e/c": 0.1789,
+    "a/o": 0.2541,
+    "g/q": 0.1158
+   },
+   "xheight_ratio": 0.51
+  },
+  "Helvetica Neue": {
+   "pair_separability": 0.3075,
+   "pairs": {
+    "I/l": 0.0521,
+    "l/1": 0.3457,
+    "I/1": 0.3417,
+    "rn/m": 0.1946,
+    "O/0": 0.5041,
+    "8/B": 0.3247,
+    "5/S": 0.3203,
+    "2/Z": 0.3514,
+    "cl/d": 0.5824,
+    "e/c": 0.1954,
+    "a/o": 0.2809,
+    "g/q": 0.197
+   },
+   "xheight_ratio": 0.52
+  },
+  "Arial": {
+   "pair_separability": 0.3238,
+   "pairs": {
+    "I/l": 0.0907,
+    "l/1": 0.4266,
+    "I/1": 0.4844,
+    "rn/m": 0.1687,
+    "O/0": 0.5741,
+    "8/B": 0.3093,
+    "5/S": 0.3744,
+    "2/Z": 0.4138,
+    "cl/d": 0.4555,
+    "e/c": 0.212,
+    "a/o": 0.2425,
+    "g/q": 0.1332
+   },
+   "xheight_ratio": 0.52
+  },
+  "Verdana": {
+   "pair_separability": 0.2827,
+   "pairs": {
+    "I/l": 0.2371,
+    "l/1": 0.371,
+    "I/1": 0.2278,
+    "rn/m": 0.2537,
+    "O/0": 0.4148,
+    "8/B": 0.1992,
+    "5/S": 0.2467,
+    "2/Z": 0.3016,
+    "cl/d": 0.5132,
+    "e/c": 0.2488,
+    "a/o": 0.2356,
+    "g/q": 0.1433
+   },
+   "xheight_ratio": 0.55
+  },
+  "Roboto": {
+   "pair_separability": 0.2745,
+   "pairs": {
+    "I/l": 0.0808,
+    "l/1": 0.4157,
+    "I/1": 0.4419,
+    "rn/m": 0.0812,
+    "O/0": 0.2697,
+    "8/B": 0.1958,
+    "5/S": 0.2866,
+    "2/Z": 0.353,
+    "cl/d": 0.5485,
+    "e/c": 0.1719,
+    "a/o": 0.2304,
+    "g/q": 0.2184
+   },
+   "xheight_ratio": 0.53
+  },
+  "Figtree": {
+   "pair_separability": 0.2856,
+   "pairs": {
+    "I/l": 0.1643,
+    "l/1": 0.3827,
+    "I/1": 0.4984,
+    "rn/m": 0.2136,
+    "O/0": 0.3642,
+    "8/B": 0.1134,
+    "5/S": 0.2144,
+    "2/Z": 0.2923,
+    "cl/d": 0.5746,
+    "e/c": 0.1777,
+    "a/o": 0.2826,
+    "g/q": 0.149
+   },
+   "xheight_ratio": 0.5
+  },
+  "Instrument Serif": {
+   "pair_separability": 0.2695,
+   "pairs": {
+    "I/l": 0.137,
+    "l/1": 0.02,
+    "I/1": 0.1367,
+    "rn/m": 0.2739,
+    "O/0": 0.271,
+    "8/B": 0.2828,
+    "5/S": 0.3349,
+    "2/Z": 0.3175,
+    "cl/d": 0.4966,
+    "e/c": 0.2174,
+    "a/o": 0.3972,
+    "g/q": 0.3492
+   },
+   "xheight_ratio": 0.52
+  },
+  "Georgia": {
+   "pair_separability": 0.4029,
+   "pairs": {
+    "I/l": 0.1621,
+    "l/1": 0.3615,
+    "I/1": 0.2738,
+    "rn/m": 0.4083,
+    "O/0": 0.5681,
+    "8/B": 0.2179,
+    "5/S": 0.7068,
+    "2/Z": 0.6311,
+    "cl/d": 0.6085,
+    "e/c": 0.2019,
+    "a/o": 0.3395,
+    "g/q": 0.3551
+   },
+   "xheight_ratio": 0.48
+  },
+  "Times New Roman": {
+   "pair_separability": 0.331,
+   "pairs": {
+    "I/l": 0.0996,
+    "l/1": 0.0824,
+    "I/1": 0.089,
+    "rn/m": 0.2351,
+    "O/0": 0.606,
+    "8/B": 0.4481,
+    "5/S": 0.4415,
+    "2/Z": 0.5108,
+    "cl/d": 0.6526,
+    "e/c": 0.1358,
+    "a/o": 0.3104,
+    "g/q": 0.3611
+   },
+   "xheight_ratio": 0.45
+  },
+  "Charter": {
+   "pair_separability": 0.3155,
+   "pairs": {
+    "I/l": 0.1052,
+    "l/1": 0.2574,
+    "I/1": 0.2485,
+    "rn/m": 0.3801,
+    "O/0": 0.4437,
+    "8/B": 0.2312,
+    "5/S": 0.2136,
+    "2/Z": 0.37,
+    "cl/d": 0.605,
+    "e/c": 0.2229,
+    "a/o": 0.3139,
+    "g/q": 0.3948
+   },
+   "xheight_ratio": 0.48
+  }
+ },
+ "conditions": [
+  "body-9px",
+  "body-12px",
+  "body-9px-blur",
+  "body-12px-blur",
+  "glance",
+  "tilt-45",
+  "dark",
+  "passthrough",
+  "codes-11px",
+  "codes-glance"
+ ],
+ "pairs": [
+  "I/l",
+  "l/1",
+  "I/1",
+  "rn/m",
+  "O/0",
+  "8/B",
+  "5/S",
+  "2/Z",
+  "cl/d",
+  "e/c",
+  "a/o",
+  "g/q"
+ ]
+}

@@ -1,0 +1,236 @@
+{
+ "standard": {
+  "Kept Sans": {
+   "word_mean": 0.786,
+   "char_mean": 0.9525,
+   "char_rep_sd": 0.0759,
+   "word_by_cond": {
+    "body-9px": 0.7667,
+    "body-12px": 1.0,
+    "body-9px-blur": 0.85,
+    "body-12px-blur": 0.9833,
+    "glance": 1.0,
+    "tilt-45": 1.0,
+    "dark": 1.0,
+    "passthrough": 0.7833,
+    "codes-11px": 0.3333,
+    "codes-glance": 0.1429
+   }
+  },
+  "Numen Title": {
+   "word_mean": 0.7479,
+   "char_mean": 0.948,
+   "char_rep_sd": 0.0683,
+   "word_by_cond": {
+    "body-9px": 0.5833,
+    "body-12px": 1.0,
+    "body-9px-blur": 0.65,
+    "body-12px-blur": 0.9333,
+    "glance": 1.0,
+    "tilt-45": 1.0,
+    "dark": 1.0,
+    "passthrough": 0.8833,
+    "codes-11px": 0.1429,
+    "codes-glance": 0.2857
+   }
+  },
+  "Bear Sans UI": {
+   "word_mean": 0.7467,
+   "char_mean": 0.9258,
+   "char_rep_sd": 0.1315,
+   "word_by_cond": {
+    "body-9px": 0.6333,
+    "body-12px": 1.0,
+    "body-9px-blur": 0.7167,
+    "body-12px-blur": 0.9667,
+    "glance": 1.0,
+    "tilt-45": 1.0,
+    "dark": 1.0,
+    "passthrough": 0.8167,
+    "codes-11px": 0.1429,
+    "codes-glance": 0.1905
+   }
+  },
+  "Bear Sans Heading": {
+   "word_mean": 0.791,
+   "char_mean": 0.9501,
+   "char_rep_sd": 0.0845,
+   "word_by_cond": {
+    "body-9px": 0.85,
+    "body-12px": 1.0,
+    "body-9px-blur": 0.8167,
+    "body-12px-blur": 0.9167,
+    "glance": 0.9833,
+    "tilt-45": 0.9667,
+    "dark": 1.0,
+    "passthrough": 0.9,
+    "codes-11px": 0.2857,
+    "codes-glance": 0.1905
+   }
+  },
+  "Inter": {
+   "word_mean": 0.7243,
+   "char_mean": 0.9376,
+   "char_rep_sd": 0.0826,
+   "word_by_cond": {
+    "body-9px": 0.6333,
+    "body-12px": 0.95,
+    "body-9px-blur": 0.5333,
+    "body-12px-blur": 0.9333,
+    "glance": 1.0,
+    "tilt-45": 0.9667,
+    "dark": 0.9333,
+    "passthrough": 0.8167,
+    "codes-11px": 0.2857,
+    "codes-glance": 0.1905
+   }
+  },
+  "Verdana": {
+   "word_mean": 0.8238,
+   "char_mean": 0.9624,
+   "char_rep_sd": 0.0628,
+   "word_by_cond": {
+    "body-9px": 0.9167,
+    "body-12px": 1.0,
+    "body-9px-blur": 0.9333,
+    "body-12px-blur": 1.0,
+    "glance": 1.0,
+    "tilt-45": 0.9833,
+    "dark": 1.0,
+    "passthrough": 0.8333,
+    "codes-11px": 0.3333,
+    "codes-glance": 0.2381
+   }
+  },
+  "Roboto": {
+   "word_mean": 0.7545,
+   "char_mean": 0.9304,
+   "char_rep_sd": 0.108,
+   "word_by_cond": {
+    "body-9px": 0.6,
+    "body-12px": 1.0,
+    "body-9px-blur": 0.8,
+    "body-12px-blur": 0.9333,
+    "glance": 0.9833,
+    "tilt-45": 0.9833,
+    "dark": 1.0,
+    "passthrough": 0.8167,
+    "codes-11px": 0.2857,
+    "codes-glance": 0.1429
+   }
+  },
+  "Georgia": {
+   "word_mean": 0.7812,
+   "char_mean": 0.9474,
+   "char_rep_sd": 0.077,
+   "word_by_cond": {
+    "body-9px": 0.9,
+    "body-12px": 1.0,
+    "body-9px-blur": 0.7333,
+    "body-12px-blur": 0.9667,
+    "glance": 1.0,
+    "tilt-45": 0.9833,
+    "dark": 1.0,
+    "passthrough": 0.8,
+    "codes-11px": 0.2857,
+    "codes-glance": 0.1429
+   }
+  },
+  "Atkinson Next": {
+   "word_mean": 0.7498,
+   "char_mean": 0.9355,
+   "char_rep_sd": 0.0963,
+   "word_by_cond": {
+    "body-9px": 0.25,
+    "body-12px": 0.9667,
+    "body-9px-blur": 0.7833,
+    "body-12px-blur": 1.0,
+    "glance": 1.0,
+    "tilt-45": 1.0,
+    "dark": 1.0,
+    "passthrough": 0.7833,
+    "codes-11px": 0.3333,
+    "codes-glance": 0.381
+   }
+  },
+  "Instrument Serif": {
+   "word_mean": 0.3781,
+   "char_mean": 0.8002,
+   "char_rep_sd": 0.1921,
+   "word_by_cond": {
+    "body-9px": 0.0667,
+    "body-12px": 0.7833,
+    "body-9px-blur": 0.0667,
+    "body-12px-blur": 0.3,
+    "glance": 0.85,
+    "tilt-45": 0.4,
+    "dark": 0.75,
+    "passthrough": 0.5167,
+    "codes-11px": 0.0476,
+    "codes-glance": 0.0
+   }
+  }
+ },
+ "xheight_matched_body": {
+  "Kept Sans": {
+   "body-9px": 0.9524,
+   "body-12px": 1.0,
+   "body-9px-blur": 0.9689,
+   "glance": 1.0
+  },
+  "Numen Title": {
+   "body-9px": 0.9938,
+   "body-12px": 1.0,
+   "body-9px-blur": 0.9959,
+   "glance": 1.0
+  },
+  "Bear Sans UI": {
+   "body-9px": 0.9979,
+   "body-12px": 1.0,
+   "body-9px-blur": 0.9979,
+   "glance": 1.0
+  },
+  "Bear Sans Heading": {
+   "body-9px": 0.9855,
+   "body-12px": 1.0,
+   "body-9px-blur": 0.9855,
+   "glance": 1.0
+  },
+  "Inter": {
+   "body-9px": 0.9358,
+   "body-12px": 0.9938,
+   "body-9px-blur": 0.9006,
+   "glance": 1.0
+  },
+  "Verdana": {
+   "body-9px": 0.9834,
+   "body-12px": 0.9959,
+   "body-9px-blur": 0.9834,
+   "glance": 1.0
+  },
+  "Roboto": {
+   "body-9px": 0.9027,
+   "body-12px": 1.0,
+   "body-9px-blur": 0.9565,
+   "glance": 0.9959
+  },
+  "Georgia": {
+   "body-9px": 0.9876,
+   "body-12px": 1.0,
+   "body-9px-blur": 0.9917,
+   "glance": 1.0
+  },
+  "Atkinson Next": {
+   "body-9px": 0.7847,
+   "body-12px": 0.9979,
+   "body-9px-blur": 0.9627,
+   "glance": 1.0
+  },
+  "Instrument Serif": {
+   "body-9px": 0.6998,
+   "body-12px": 0.9814,
+   "body-9px-blur": 0.4886,
+   "glance": 0.9752
+  }
+ }
+}
