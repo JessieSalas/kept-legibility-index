@@ -26,4 +26,25 @@ curl -fsL -o notosans.ttf       "$G/notosans/NotoSans%5Bwdth,wght%5D.ttf"
 curl -fsL -o sourcesans3.ttf    "$G/sourcesans3/SourceSans3%5Bwght%5D.ttf"
 curl -fsL -o ibmplexsans.ttf    "$G/ibmplexsans/IBMPlexSans%5Bwdth,wght%5D.ttf"
 curl -fsL -o publicsans.ttf     "$G/publicsans/PublicSans%5Bwght%5D.ttf"
-echo "fetched. Kept's own fonts: download kept-type.zip from kept.do/type"
+
+# Verify against the binaries the published v3.1 results were measured from.
+# The pin above fixes the URL; this fixes the bytes. If upstream ever rewrites
+# history at that sha, or a proxy or mirror substitutes a file, the panel is no
+# longer the one behind results/v31 and the run must not silently proceed.
+if command -v shasum >/dev/null 2>&1; then
+  shasum -a 256 -c SHA256SUMS >/dev/null || {
+    echo "checksum mismatch: fetched faces are NOT the ones behind results/v31" >&2
+    echo "re-run 'shasum -a 256 -c SHA256SUMS' to see which." >&2
+    exit 1
+  }
+elif command -v sha256sum >/dev/null 2>&1; then
+  sha256sum -c SHA256SUMS >/dev/null || {
+    echo "checksum mismatch: fetched faces are NOT the ones behind results/v31" >&2
+    echo "re-run 'sha256sum -c SHA256SUMS' to see which." >&2
+    exit 1
+  }
+else
+  echo "warning: no shasum/sha256sum found, comparison faces unverified" >&2
+fi
+
+echo "fetched and verified. Kept's own fonts are in ../kept-type/ (or kept.do/type)"

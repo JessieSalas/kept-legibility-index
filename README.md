@@ -26,7 +26,8 @@ Two ways, pick your temperament:
 ```sh
 git clone https://github.com/JessieSalas/kept-legibility-index
 cd kept-legibility-index
-sh fonts/fetch.sh                      # open-licensed faces from google/fonts
+sh fonts/fetch.sh                      # open-licensed faces from google/fonts,
+                                       # pinned to a commit and checksum-verified
 swiftc -O -o ocr/visionocr ocr/visionocr.swift
 python3 -m venv venv && venv/bin/pip install -r requirements.txt
 venv/bin/python bench/run_index.py     # renders, OCRs, scores, prints the table
@@ -38,11 +39,6 @@ any language, by hand or by handing it to your AI assistant. Independent
 implementations that disagree with ours are the most valuable issue you can
 file.
 
-## A note on the site links
-
-The kept.do pages referenced here ship with the next site deploy; if a link
-404s, the repo you are standing in has everything the pages summarize.
-
 ## Results
 
 The current table, the per-condition cells, controls (word-level scoring,
@@ -53,8 +49,11 @@ live in [results/](results/). The narrative version with figures:
 ## The fonts it built
 
 The index was the audition for Kept's type program. Three faces came out of it,
-all free under the SIL Open Font License 1.1, downloadable at
-[kept.do/type](https://kept.do/type):
+all free under the SIL Open Font License 1.1. The binaries live in this repo at
+[kept-type/](kept-type/), TTF and WOFF2 for every weight, each family with its
+own OFL text: clone the repo, or take the zip from the
+[latest release](https://github.com/JessieSalas/kept-legibility-index/releases/latest),
+or [kept.do/type](https://kept.do/type).
 
 - **Kept Sans**, the interface face (Figtree chassis, five measured corrections)
 - **Numen Title**, the headline serif (Fraunces chassis, axes pinned by data)
