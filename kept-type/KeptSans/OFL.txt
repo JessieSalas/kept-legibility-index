@@ -1,4 +1,9 @@
-Kept Sans (c) 2026 Thesis Labs, LLC. Derived from Figtree, Copyright 2022 The Figtree Project Authors; K, k, and ampersand from Albert Sans, Copyright 2021 The Albert Sans Project Authors.
+Copyright 2026 The Kept Sans Project Authors (https://github.com/JessieSalas/kept-legibility-index)
+
+Kept Sans is a derivative of Figtree, Copyright 2022 The Figtree Project
+Authors (https://github.com/erikdkennedy/figtree). The K, k and ampersand are
+from Albert Sans, Copyright 2021 The Albert Sans Project Authors
+(https://github.com/googlefonts/albert-sans).
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:

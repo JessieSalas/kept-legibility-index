@@ -1,4 +1,11 @@
-Legibility Sans (c) 2026 Thesis Labs, LLC. Based on Atkinson Hyperlegible Next, Copyright 2020-2024 Braille Institute of America, Inc. Atkinson Hyperlegible is a trademark of the Braille Institute of America; Legibility Sans is an independent derivative and is not endorsed by the Braille Institute.
+Copyright 2026 The Legibility Sans Project Authors (https://github.com/JessieSalas/kept-legibility-index)
+
+Legibility Sans is a derivative of Atkinson Hyperlegible Next, Copyright
+2020-2024 The Atkinson Hyperlegible Next Project Authors
+(https://github.com/googlefonts/atkinson-hyperlegible-next).
+Atkinson Hyperlegible is a trademark of the Braille Institute of America, Inc.
+Legibility Sans is an independent derivative and is not endorsed by, or
+affiliated with, the Braille Institute of America.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
