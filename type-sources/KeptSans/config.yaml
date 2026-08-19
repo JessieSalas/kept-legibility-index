@@ -1,0 +1,9 @@
+# gftools-builder config. Kept Sans sits on Figtree's own weight positions,
+# so unlike Legibility Sans a variable build is possible in principle --
+# blocked today only by the ampersand (see README, "Known gaps").
+sources:
+  - sources/KeptSans.glyphs
+familyName: Kept Sans
+axisOrder:
+  - wght
+buildVariable: false
