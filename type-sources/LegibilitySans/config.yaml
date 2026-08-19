@@ -1,0 +1,14 @@
+# gftools-builder config. Build with:  gftools builder config.yaml
+sources:
+  - sources/LegibilitySans.glyphs
+familyName: Legibility Sans
+axisOrder:
+  - wght
+buildVariable: false     # the family ships six statics; see README
+instances:
+  Legibility Sans Light:    { wght: 300 }
+  Legibility Sans Regular:  { wght: 400 }
+  Legibility Sans Medium:   { wght: 500 }
+  Legibility Sans SemiBold: { wght: 600 }
+  Legibility Sans Bold:     { wght: 700 }
+  Legibility Sans ExtraBold:{ wght: 800 }
