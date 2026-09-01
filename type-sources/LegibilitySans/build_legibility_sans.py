@@ -24,6 +24,9 @@ onto those design coordinates. That keeps the design decision in `avar`, where
 it belongs, instead of baking it into instance definitions.
 
 Usage: build_legibility_sans.py <atkinson-sources-dir> <out-dir>
+
+Italic: the same transform is applied to AtkinsonHyperlegibleNext-Italic.glyphs.
+ExtraLight is dropped on italic too — LS ships Light..ExtraBold only.
 """
 import os
 import sys
@@ -168,11 +171,10 @@ def remap_axis(font):
     return new
 
 
-def main(src_dir, out_dir):
-    os.makedirs(out_dir, exist_ok=True)
-    path = os.path.join(src_dir, "AtkinsonHyperlegibleNext.glyphs")
+def transform_source(path, out_dir, italic=False):
     with open(path, encoding="utf-8") as fh:
         font = glyphsLib.load(fh)
+    print(f"{'italic' if italic else 'roman'} from {path}")
 
     targets = [g for g in font.glyphs if is_lowercase_glyph(g)]
     print(f"scaling {len(targets)} lowercase glyphs by {SCALE}")
@@ -194,15 +196,16 @@ def main(src_dir, out_dir):
         n = realign_components(font, mid)
         if master.xHeight:
             master.xHeight = round(master.xHeight * SCALE)
-        print(f"  master {master.name:<12} re-seated {n} marks, "
+        print(f"  master {master.name:<18} re-seated {n} marks, "
               f"xHeight -> {master.xHeight}")
 
     mapping = remap_axis(font)
     print(f"axis mapping (Legibility Sans wght -> Atkinson design): {mapping}")
 
     font.familyName = FAMILY
+    drop = {"ExtraLight", "ExtraLight Italic"}
     for inst in list(font.instances):
-        if inst.name == "ExtraLight":
+        if inst.name in drop:
             font.instances.remove(inst)         # LS ships Light..ExtraBold
     for inst in font.instances:
         inst.familyName = FAMILY
@@ -216,9 +219,23 @@ def main(src_dir, out_dir):
         )
     )
 
-    out = os.path.join(out_dir, "LegibilitySans.glyphs")
+    out_name = "LegibilitySans-Italic.glyphs" if italic else "LegibilitySans.glyphs"
+    out = os.path.join(out_dir, out_name)
     font.save(out)
     print(f"wrote {out}")
+
+
+def main(src_dir, out_dir):
+    os.makedirs(out_dir, exist_ok=True)
+    italic = os.path.join(src_dir, "AtkinsonHyperlegibleNext-Italic.glyphs")
+    roman = os.path.join(src_dir, "AtkinsonHyperlegibleNext.glyphs")
+    # Roman source is already committed; italic is the new work.
+    if os.path.exists(italic):
+        transform_source(italic, out_dir, italic=True)
+    elif os.path.exists(roman):
+        transform_source(roman, out_dir, italic=False)
+    else:
+        raise SystemExit(f"no Atkinson sources in {src_dir}")
 
 
 if __name__ == "__main__":

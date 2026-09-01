@@ -44,7 +44,7 @@ FAMILIES = {
             "Legibility Sans is an independent derivative and is not endorsed by, or",
             "affiliated with, the Braille Institute of America.",
         ],
-        "version": "2.001",
+        "version": "2.100",
     },
     "NumenTitle": {
         "name": "Numen Title",

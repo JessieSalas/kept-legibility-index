@@ -8,9 +8,10 @@ WOFF2 for the web.
   Thin or ExtraLight; we do not invent them.
 - **Numen Title** (6 weights, Light-ExtraBold, each with a true italic): the
   headline serif. Fraunces bones, axes pinned by measurement.
-- **Legibility Sans** (6 weights, Light-ExtraBold): built only to be read.
-  Based on Atkinson Hyperlegible Next; the only face in our index legible at
-  8 px. No ligatures, on purpose.
+- **Legibility Sans** (6 weights, Light-ExtraBold, each with a true italic):
+  built only to be read. Based on Atkinson Hyperlegible Next; the only face
+  in our index legible at 8 px. No ligatures, on purpose. Atkinson ExtraLight
+  is dropped on italic too — we do not invent a weight the roman does not ship.
 
 Every claim is measured by the Kept Legibility Index. The protocol ships in
 this zip (PROTOCOL.md); the harness, corpus, raw results, and claims ledger:
