@@ -422,21 +422,28 @@ def graft_marks(italic, roman):
     return added
 
 
+def drop_name(font, nid):
+    name = font["name"]
+    for rec in list(name.names):
+        if rec.nameID == nid:
+            name.names.remove(rec)
+
+
 def apply_italic_names(font, weight_name, wght):
-    ps = f"NumenTitle-{weight_name}Italic"
-    # Keep Regular/Bold on the RIBBI 4-style family; others use 16/17.
+    # Regular italic is RIBBI: file + PS name are Family-Italic, no 16/17.
+    ps = "NumenTitle-Italic" if weight_name == "Regular" else f"NumenTitle-{weight_name}Italic"
     if weight_name == "Regular":
         set_name(font, 1, FAMILY)
         set_name(font, 2, "Italic")
         set_name(font, 4, f"{FAMILY} Italic")
-        set_name(font, 16, FAMILY)
-        set_name(font, 17, "Italic")
+        drop_name(font, 16)
+        drop_name(font, 17)
     elif weight_name == "Bold":
         set_name(font, 1, FAMILY)
         set_name(font, 2, "Bold Italic")
         set_name(font, 4, f"{FAMILY} Bold Italic")
-        set_name(font, 16, FAMILY)
-        set_name(font, 17, "Bold Italic")
+        drop_name(font, 16)
+        drop_name(font, 17)
     else:
         set_name(font, 1, f"{FAMILY} {weight_name}")
         set_name(font, 2, "Italic")
@@ -479,31 +486,23 @@ def apply_italic_names(font, weight_name, wght):
 
 
 def apply_stat(font, wght, italic=True):
-    # Family-wide STAT so apps see 6 weights × roman/italic as one family.
-    # Per-style location is carried by name IDs / OS/2, not Format-4 AxisValues.
+    # Statics may list only the values that apply to this file. A full
+    # wght+ital ladder on every static FAILs FontBakery STAT_in_statics.
+    weight_name = {300: "Light", 400: "Regular", 500: "Medium", 600: "SemiBold", 700: "Bold", 800: "ExtraBold"}[wght]
+    wght_value = {"value": wght, "name": weight_name}
+    if weight_name == "Regular":
+        wght_value["flags"] = 2
+        wght_value["linkedValue"] = 700
+    ital_values = (
+        [{"value": 1, "name": "Italic"}]
+        if italic
+        else [{"value": 0, "name": "Roman", "flags": 2, "linkedValue": 1}]
+    )
     buildStatTable(
         font,
         [
-            {
-                "tag": "wght",
-                "name": "Weight",
-                "values": [
-                    {"value": 300, "name": "Light"},
-                    {"value": 400, "name": "Regular", "flags": 2, "linkedValue": 700},
-                    {"value": 500, "name": "Medium"},
-                    {"value": 600, "name": "SemiBold"},
-                    {"value": 700, "name": "Bold"},
-                    {"value": 800, "name": "ExtraBold"},
-                ],
-            },
-            {
-                "tag": "ital",
-                "name": "Italic",
-                "values": [
-                    {"value": 0, "name": "Roman", "flags": 2, "linkedValue": 1},
-                    {"value": 1, "name": "Italic"},
-                ],
-            },
+            {"tag": "wght", "name": "Weight", "values": [wght_value]},
+            {"tag": "ital", "name": "Italic", "values": ital_values},
         ],
     )
 
@@ -557,13 +556,12 @@ def main(vf_path, family_dir, out_dir):
     for wght, weight_name in WEIGHTS:
         roman_fn = f"NumenTitle-{weight_name}.ttf"
         roman_path = os.path.join(family_dir, roman_fn)
+        # Regular italic is the RIBBI name Family-Italic.ttf (not RegularItalic).
         out_fn = (
-            f"NumenTitle-{weight_name}Italic.ttf"
-            if weight_name != "Regular"
-            else "NumenTitle-Italic.ttf"
+            "NumenTitle-Italic.ttf"
+            if weight_name == "Regular"
+            else f"NumenTitle-{weight_name}Italic.ttf"
         )
-        # User asked NumenTitle-<Weight>Italic for every weight, including Regular.
-        out_fn = f"NumenTitle-{weight_name}Italic.ttf"
         out_path = os.path.join(out_dir, out_fn)
         ps, done, grafted = build_one(vf_path, roman_path, out_path, wght, weight_name)
         print(f"{out_fn}: ps={ps} j={done} grafted={grafted}")

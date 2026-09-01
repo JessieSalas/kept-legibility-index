@@ -22,3 +22,7 @@ The full table: https://kept.do/most-legible-font
 
 U+2713 and U+2717 are native in Kept Sans and Numen Title. Kept Sans keeps
 its stylistic sets from Figtree; Numen Title keeps Fraunces' own ampersand.
+
+FontBakery googlefonts: Kept Sans and Legibility Sans have no FAILs. Numen
+Title's only FAIL is the known Dutch J-acute shaping (`shape_languages`)
+on every face. Regular italic files use the RIBBI names `*-Italic.ttf`.

@@ -19,8 +19,9 @@ measured, not guessed; the public write-up is [kept.do/type](https://kept.do/typ
 
 Italic is the same transform applied to
 `Fraunces-Italic[SOFT,WONK,opsz,wght].ttf`. Files are named
-`NumenTitle-<Weight>Italic.ttf` with OS/2 italic bit, macStyle, `post.italicAngle`
-−16, and a STAT table so the twelve statics read as one family.
+`NumenTitle-<Weight>Italic.ttf` (Regular italic is the RIBBI name
+`NumenTitle-Italic.ttf`) with OS/2 italic bit, macStyle, `post.italicAngle`
+−16, and a one-value-per-axis STAT so the twelve statics read as one family.
 
 ## Build italic
 
