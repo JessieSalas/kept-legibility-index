@@ -31,7 +31,7 @@ FAMILIES = {
             "from Albert Sans, Copyright 2021 The Albert Sans Project Authors",
             "(https://github.com/googlefonts/albert-sans).",
         ],
-        "version": "2.000",
+        "version": "2.100",
     },
     "LegibilitySans": {
         "name": "Legibility Sans",
@@ -44,7 +44,7 @@ FAMILIES = {
             "Legibility Sans is an independent derivative and is not endorsed by, or",
             "affiliated with, the Braille Institute of America.",
         ],
-        "version": "2.001",
+        "version": "2.100",
     },
     "NumenTitle": {
         "name": "Numen Title",
@@ -53,7 +53,7 @@ FAMILIES = {
             "Numen Title is a derivative of Fraunces, Copyright 2020 The Fraunces Project",
             "Authors (https://github.com/undercasetype/Fraunces).",
         ],
-        "version": "1.300",
+        "version": "1.400",
     },
 }
 

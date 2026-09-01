@@ -32,7 +32,8 @@ is the original design decision and it is preserved in the instance positions.
 
 ```sh
 git clone --depth 1 https://github.com/googlefonts/atkinson-hyperlegible-next
-python3 build_legibility_sans.py atkinson-hyperlegible-next/sources ./out
+python3 build_legibility_sans.py atkinson-hyperlegible-next/sources ./sources
+# italic: LegibilitySans-Italic.glyphs, ExtraLight dropped to match roman
 gftools builder config.yaml
 python3 ../../tools/fix_fonts.py <built-dir> <ship-dir>   # metadata + metrics pass
 ```

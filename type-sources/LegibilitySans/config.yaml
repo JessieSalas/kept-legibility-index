@@ -1,9 +1,11 @@
 # gftools-builder config. Build with:  gftools builder config.yaml
 sources:
   - sources/LegibilitySans.glyphs
+  - sources/LegibilitySans-Italic.glyphs
 familyName: Legibility Sans
 axisOrder:
   - wght
+  - ital
 buildVariable: false     # the family ships six statics; see README
 instances:
   Legibility Sans Light:    { wght: 300 }

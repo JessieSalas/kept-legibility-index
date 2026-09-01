@@ -18,6 +18,11 @@ weights that correspond to Figtree's masters -- Light (300) and Black (900) --
 so they interpolate across the axis exactly as they did before.
 
 Usage: build_kept_sans.py <figtree-sources-dir> <kept-sans-ttf-dir> <out-dir>
+
+Italic: the same scale + tracking is applied to Figtree-Italic.glyphs.
+Figtree's axis is 300–900 (Light–Black); there is no Thin or ExtraLight
+upstream, so we do not invent those weights. The five redrawn glyphs
+(I, l, K, k, &) have no shipped italic cuts and stay Figtree-italic.
 """
 import os
 import sys
@@ -38,6 +43,8 @@ NARROW = {"one", "I", "idotless", "jdotless", "l"}
 REPLACED = ["I", "l", "K", "k", "ampersand"]
 
 # Figtree master -> the shipped Kept Sans static cut at the same weight.
+# Italic masters have no shipped italic binaries to harvest from; those
+# five glyphs stay Figtree-italic (scale + tracking only).
 MASTER_TTF = {"Light": "KeptSans-Light.ttf", "Black": "KeptSans-Black.ttf"}
 
 FAMILY = "Kept Sans"
@@ -179,11 +186,10 @@ def install_outline(layer, contours):
         layer.paths.append(path)
 
 
-def main(figtree_sources, kept_ttf_dir, out_dir):
-    os.makedirs(out_dir, exist_ok=True)
-    path = os.path.join(figtree_sources, "Figtree.glyphs")
-    with open(path, encoding="utf-8") as fh:
+def transform_source(src_path, kept_ttf_dir, out_dir, italic=False):
+    with open(src_path, encoding="utf-8") as fh:
         font = glyphsLib.load(fh)
+    print(f"{'italic' if italic else 'roman'} from {src_path}")
 
     targets = [g for g in font.glyphs if is_lowercase_glyph(g)]
     print(f"scaling {len(targets)} lowercase glyphs by {SCALE}")
@@ -220,6 +226,7 @@ def main(figtree_sources, kept_ttf_dir, out_dir):
             master.xHeight = round(master.xHeight * SCALE)
 
         # Swap in the five redrawn glyphs from the matching shipped weight.
+        # Italic has no shipped italic binaries; leave Figtree's italic cuts.
         ttf_name = MASTER_TTF.get(master.name)
         swapped = []
         if ttf_name:
@@ -236,14 +243,33 @@ def main(figtree_sources, kept_ttf_dir, out_dir):
                 layer.width = ttf["hmtx"][src][0]
                 swapped.append(gname)
             ttf.close()
-        print(f"  master {master.name:<8} marks={n} xHeight->{master.xHeight} swapped={swapped}")
+        print(f"  master {master.name:<12} marks={n} xHeight->{master.xHeight} swapped={swapped}")
 
     font.familyName = FAMILY
     for inst in font.instances:
         inst.familyName = FAMILY
-    out = os.path.join(out_dir, "KeptSans.glyphs")
+        if italic:
+            # Keep Figtree's "Light Italic" / "Italic" names; family is ours.
+            if inst.name and not inst.name.lower().endswith("italic"):
+                inst.name = f"{inst.name} Italic"
+    out_name = "KeptSans-Italic.glyphs" if italic else "KeptSans.glyphs"
+    out = os.path.join(out_dir, out_name)
     font.save(out)
     print(f"wrote {out}")
+
+
+def main(figtree_sources, kept_ttf_dir, out_dir):
+    os.makedirs(out_dir, exist_ok=True)
+    roman = os.path.join(figtree_sources, "Figtree.glyphs")
+    italic = os.path.join(figtree_sources, "Figtree-Italic.glyphs")
+    # Roman source is already committed. Regenerating it is optional and
+    # produces a 29k-line churn for no design change; italic is the new work.
+    if os.path.exists(italic):
+        transform_source(italic, kept_ttf_dir, out_dir, italic=True)
+    elif os.path.exists(roman):
+        transform_source(roman, kept_ttf_dir, out_dir, italic=False)
+    else:
+        raise SystemExit(f"no Figtree sources in {figtree_sources}")
 
 
 if __name__ == "__main__":
