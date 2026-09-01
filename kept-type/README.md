@@ -5,8 +5,8 @@ WOFF2 for the web.
 
 - **Kept Sans** (7 weights, 300-900): the interface voice. Figtree bones, five
   measured legibility corrections.
-- **Numen Title** (6 weights, Light-ExtraBold): the headline serif. Fraunces
-  bones, axes pinned by measurement.
+- **Numen Title** (6 weights, Light-ExtraBold, each with a true italic): the
+  headline serif. Fraunces bones, axes pinned by measurement.
 - **Legibility Sans** (6 weights, Light-ExtraBold): built only to be read.
   Based on Atkinson Hyperlegible Next; the only face in our index legible at
   8 px. No ligatures, on purpose.

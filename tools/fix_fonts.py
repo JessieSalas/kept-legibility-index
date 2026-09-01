@@ -53,7 +53,7 @@ FAMILIES = {
             "Numen Title is a derivative of Fraunces, Copyright 2020 The Fraunces Project",
             "Authors (https://github.com/undercasetype/Fraunces).",
         ],
-        "version": "1.302",
+        "version": "1.400",
     },
 }
 
