@@ -63,10 +63,16 @@ intermediate-weight divergence.
 
 ```sh
 git clone --depth 1 https://github.com/erikdkennedy/figtree
-python3 build_kept_sans.py figtree/sources ../../kept-type/KeptSans ./out
+python3 build_kept_sans.py figtree/sources ../../kept-type/KeptSans ./sources
+# italic: KeptSans-Italic.glyphs (scale + tracking; five redrawn glyphs
+# stay Figtree-italic — no shipped italic binaries to harvest)
 gftools builder config.yaml
 python3 ../../tools/fix_fonts.py <built-dir> <ship-dir>   # metadata + metrics pass
 ```
+
+Figtree's weight axis is **300–900** (Light–Black). There is no Thin or
+ExtraLight upstream; we do not extrapolate those. Italic instances are
+produced for every existing weight.
 
 ## Licensing
 

@@ -1,9 +1,13 @@
 # gftools-builder config. Kept Sans sits on Figtree's own weight positions,
 # so unlike Legibility Sans a variable build is possible in principle --
 # blocked today only by the ampersand (see README, "Known gaps").
+# Italic is Figtree-Italic.glyphs through the same scale/tracking transform;
+# the five redrawn glyphs stay Figtree-italic (no shipped italic binaries).
 sources:
   - sources/KeptSans.glyphs
+  - sources/KeptSans-Italic.glyphs
 familyName: Kept Sans
 axisOrder:
   - wght
+  - ital
 buildVariable: false

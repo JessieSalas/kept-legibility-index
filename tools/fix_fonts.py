@@ -31,7 +31,7 @@ FAMILIES = {
             "from Albert Sans, Copyright 2021 The Albert Sans Project Authors",
             "(https://github.com/googlefonts/albert-sans).",
         ],
-        "version": "2.000",
+        "version": "2.100",
     },
     "LegibilitySans": {
         "name": "Legibility Sans",

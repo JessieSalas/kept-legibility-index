@@ -3,8 +3,9 @@
 Three typefaces, all SIL Open Font License 1.1. TTF for apps and OS install,
 WOFF2 for the web.
 
-- **Kept Sans** (7 weights, 300-900): the interface voice. Figtree bones, five
-  measured legibility corrections.
+- **Kept Sans** (7 weights, 300-900, each with a true italic): the interface
+  voice. Figtree bones, five measured legibility corrections. Figtree has no
+  Thin or ExtraLight; we do not invent them.
 - **Numen Title** (6 weights, Light-ExtraBold, each with a true italic): the
   headline serif. Fraunces bones, axes pinned by measurement.
 - **Legibility Sans** (6 weights, Light-ExtraBold): built only to be read.
